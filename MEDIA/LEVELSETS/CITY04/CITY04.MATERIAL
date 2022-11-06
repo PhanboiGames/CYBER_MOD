@@ -1,0 +1,168 @@
+material unit_matl
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture wall.dds
+                        }
+                }
+        }
+}
+material walkway
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture metalwalk.dds
+                        }
+                }
+        }
+}
+material bldg
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture fake_bldg.dds
+                        }
+                }
+        }
+}
+material truss_top
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture metal_trusses1.dds
+                        }
+                }
+        }
+}
+material truss_no_top
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture metal_trusses1.dds
+                        }
+                }
+        }
+}
+material truss_stairs
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture metal_trusses1.dds
+                        }
+                }
+        }
+}
+material truss_top2
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture trusses_bluish.dds
+                        }
+                }
+        }
+}
+material truss_no_top2
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture trusses_bluish.dds
+                        }
+                }
+        }
+}

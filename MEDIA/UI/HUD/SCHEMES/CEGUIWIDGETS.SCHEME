@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" ?>
+<GUIScheme Name="newHud">
+	<Imageset Name="ceguiWidget" Filename="media/ui/hud/schemes/ceguiWidget.imageset" />	
+	<Font Name="TorchlightFont" Filename="media/ui/TorchlightFont.font" />
+
+	<Font Name="Serif" Filename="media/ui/Serif.font" />
+	<Font Name="SerifBig" Filename="media/ui/SerifBig.font" />
+	<Font Name="SerifGrand" Filename="media/ui/SerifGrand.font" />
+	<Font Name="SerifHuge" Filename="media/ui/SerifHuge.font" />
+	<Font Name="SerifSmall" Filename="media/ui/SerifSmall.font" />
+	<Font Name="Serif14" Filename="media/ui/Serif14.font" />
+	<Font Name="System" Filename="media/ui/System.font" />
+	<Font Name="Arial" Filename="media/ui/Arial.font" />
+	<Font Name="ArialSmall" Filename="media/ui/ArialSmall.font" />
+	<Font Name="ArialSmallBold" Filename="media/ui/ArialSmallBold.font" />
+	
+	<LookNFeel Filename="media/ui/hud/schemes/ceguiWidgets.looknfeel" />
+	<WindowRendererSet Filename="CEGUIFalagardWRBase" />
+	<FalagardMapping WindowType="ceguiWidget/Button"      TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="ceguiWidget/Button" />
+	<FalagardMapping WindowType="ceguiWidget/FrameWindow"  TargetType="CEGUI/FrameWindow" Renderer="Falagard/FrameWindow"  LookNFeel="ceguiWidget/FrameWindow" />
+	<FalagardMapping WindowType="ceguiWidget/IconButton"  TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="ceguiWidget/IconButton" />
+	<FalagardMapping WindowType="ceguiWidget/ImageButton"  TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="ceguiWidget/ImageButton" />
+ 	<FalagardMapping WindowType="ceguiWidget/VerticalScrollbar"   TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="ceguiWidget/VerticalScrollbar" />
+ 	<FalagardMapping WindowType="ceguiWidget/HorizontalScrollbar" TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="ceguiWidget/HorizontalScrollbar" />
+	<FalagardMapping WindowType="ceguiWidget/ScrollablePane" TargetType="CEGUI/ScrollablePane" Renderer="Falagard/ScrollablePane" LookNFeel="ceguiWidget/ScrollablePane" />
+	<FalagardMapping WindowType="ceguiWidget/VerticalScrollbarThumb"   TargetType="CEGUI/Thumb" Renderer="Falagard/Button" LookNFeel="ceguiWidget/VerticalScrollbarThumb" />
+	<FalagardMapping WindowType="ceguiWidget/HorizontalScrollbarThumb" TargetType="CEGUI/Thumb" Renderer="Falagard/Button" LookNFeel="ceguiWidget/HorizontalScrollbarThumb" />	
+	<FalagardMapping WindowType="ceguiWidget/StaticText"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="ceguiWidget/StaticText" />
+	<FalagardMapping WindowType="ceguiWidget/StaticTextNoDropShadow"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="ceguiWidget/StaticTextNoDropShadow" />
+	<FalagardMapping WindowType="ceguiWidget/StaticTextOutline"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="ceguiWidget/StaticTextOutline" />
+	<FalagardMapping WindowType="ceguiWidget/StaticTextBox"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="ceguiWidget/StaticTextBox" />	<FalagardMapping WindowType="ceguiWidget/MultiLineEditbox" TargetType="CEGUI/MultiLineEditbox" Renderer="Falagard/MultiLineEditbox" LookNFeel="ceguiWidget/MultiLineEditbox" />
+	<FalagardMapping WindowType="ceguiWidget/PlayerNameText"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="ceguiWidget/PlayerNameText" />
+	<FalagardMapping WindowType="ceguiWidget/FloatingText"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="ceguiWidget/FloatingText" />
+	<FalagardMapping WindowType="ceguiWidget/MultiLineEditbox" TargetType="CEGUI/MultiLineEditbox" Renderer="Falagard/MultiLineEditbox" LookNFeel="ceguiWidget/MultiLineEditbox" />
+	<FalagardMapping WindowType="ceguiWidget/MultiLineEditboxLeftBar" TargetType="CEGUI/MultiLineEditbox" Renderer="Falagard/MultiLineEditbox" LookNFeel="ceguiWidget/MultiLineEditboxLeftBar" />
+	<FalagardMapping WindowType="ceguiWidget/TooltipWrapper" TargetType="CEGUI/Tooltip" Renderer="Falagard/Tooltip" LookNFeel="ceguiWidget/TooltipWrapper" />	
+
+	<FalagardMapping WindowType="ceguiWidget/Slider"      TargetType="CEGUI/Slider"      Renderer="Falagard/Slider"  LookNFeel="ceguiWidget/Slider" />
+	<FalagardMapping WindowType="ceguiWidget/SliderThumb" TargetType="CEGUI/Thumb" Renderer="Falagard/Button"  LookNFeel="ceguiWidget/SliderThumb" />
+	<FalagardMapping WindowType="ceguiWidget/ComboDropList" TargetType="CEGUI/ComboDropList" Renderer="Falagard/Listbox" LookNFeel="ceguiWidget/ComboDropList" />
+	<FalagardMapping WindowType="ceguiWidget/ComboEditbox"  TargetType="CEGUI/Editbox"	 Renderer="Falagard/Editbox" LookNFeel="ceguiWidget/ComboEditbox" />
+	<FalagardMapping WindowType="ceguiWidget/Combobox"	TargetType="CEGUI/Combobox"	 Renderer="Falagard/Default" LookNFeel="ceguiWidget/Combobox" />
+	<FalagardMapping WindowType="ceguiWidget/Tooltip" TargetType="CEGUI/Tooltip" Renderer="Falagard/Tooltip" LookNFeel="ceguiWidget/Tooltip" />
+	<FalagardMapping WindowType="ceguiWidget/ItemText"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="ceguiWidget/ItemText" />
+	<FalagardMapping WindowType="ceguiWidget/ItemTextButton"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="ceguiWidget/ItemTextButton" />
+	<FalagardMapping WindowType="ceguiWidget/StaticImage" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="ceguiWidget/StaticImage" />
+	<FalagardMapping WindowType="ceguiWidget/Editbox" TargetType="CEGUI/Editbox" Renderer="Falagard/Editbox" LookNFeel="ceguiWidget/Editbox" />
+	<FalagardMapping WindowType="ceguiWidget/ItemTooltip"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="ceguiWidget/ItemTooltip" />
+	<FalagardMapping WindowType="ceguiWidget/ItemTooltip2"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="ceguiWidget/ItemTooltip2" />
+	<FalagardMapping WindowType="ceguiWidget/LineFrame"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="ceguiWidget/LineFrame" />
+	<FalagardMapping WindowType="ceguiWidget/Checkbox"    TargetType="CEGUI/Checkbox"    Renderer="Falagard/ToggleButton" LookNFeel="ceguiWidget/Checkbox" />
+</GUIScheme>

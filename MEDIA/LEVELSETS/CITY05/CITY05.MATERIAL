@@ -1,0 +1,462 @@
+material bldg1_corner
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture gray.dds
+                        }
+                }
+        }
+}
+material bldg1_dblwall_cornice
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture gray.dds
+                        }
+                }
+        }
+}
+material bldg1_dblwall_entrance
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture green.dds
+                        }
+                }
+        }
+}
+material bldg1_plainwall_cornice
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture gray.dds
+                        }
+                }
+        }
+}
+material bldg1_plainwall_wall
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture green.dds
+                        }
+                }
+        }
+}
+material bldg2_corner
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture brown.dds
+                        }
+                }
+        }
+}
+material bldg2_corner_cornice
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture brown.dds
+                        }
+                }
+        }
+}
+material bldg2_dblwall_cornice
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture brown.dds
+                        }
+                }
+        }
+}
+material bldg2_dblwall_entrance
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture brown.dds
+                        }
+                }
+        }
+}
+material bldg2_plainwall_wall
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture brown.dds
+                        }
+                }
+        }
+}
+material bldg2_plainwall_cornice
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture brown.dds
+                        }
+                }
+        }
+}
+material bldg3_dblwall_entrance
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture blue.dds
+                        }
+                }
+        }
+}
+material bldg3_corner
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture blue.dds
+                        }
+                }
+        }
+}
+material bldg3_plainwall_wall
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture blue.dds
+                        }
+                }
+        }
+}
+material bldgtop_corner
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture gray.dds
+                        }
+                }
+        }
+}
+material bldgtop_corner_floor
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture gray_medium.dds
+                        }
+                }
+        }
+}
+material bldgtop_edge
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture gray.dds
+                        }
+                }
+        }
+}
+material bldgtop_edge_floor
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture gray_medium.dds
+                        }
+                }
+        }
+}
+material door_spacey_1
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture gray.dds
+                        }
+                }
+        }
+}
+material door_trad_double_1
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture gray.dds
+                        }
+                }
+        }
+}
+material window_slatted_louvres
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture gray.dds
+                        }
+                }
+        }
+}
+material window_slatted_casing
+{
+        technique
+        {
+                pass
+                {
+                        ambient 0.588 0.588 0.588
+                        diffuse 0.588 0.588 0.588
+                        specular 0.000000 0.000000 0.000000
+                        emissive 0.000000 0.000000 0.000000
+						lighting off
+						scene_blend alpha_blend
+						alpha_rejection greater 5
+						fog_override true none
+                        texture_unit
+                        {
+                                texture gray.dds
+                        }
+                }
+        }
+}

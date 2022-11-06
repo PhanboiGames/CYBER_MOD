@@ -1,0 +1,3893 @@
+<?xml version="1.0" ?>
+<Falagard> 
+
+
+ <!--
+    ***************************************************
+        ceguiWidget/StaticShared
+        (Shared imagery components for static widgets)
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/StaticShared">
+        <ImagerySection name="frame">
+            <FrameComponent>
+               
+                <Image type="TopLeftCorner" imageset="ceguiWidget" image="tooltiptransparent_topleft_corner" />
+                <Image type="TopRightCorner" imageset="ceguiWidget" image="tooltiptransparent_topright_corner" />
+                <Image type="BottomLeftCorner" imageset="ceguiWidget" image="tooltiptransparent_btmleft_corner" />
+                <Image type="BottomRightCorner" imageset="ceguiWidget" image="tooltiptransparent_btmright_corner" />
+                <Image type="LeftEdge" imageset="ceguiWidget" image="tooltiptransparent_left_tweener" />
+                <Image type="RightEdge" imageset="ceguiWidget" image="tooltiptransparent_right_tweener" />
+                <Image type="TopEdge" imageset="ceguiWidget" image="tooltiptransparent_top_tweener" />
+                <Image type="BottomEdge" imageset="ceguiWidget" image="tooltiptransparent_btm_tweener" />
+		    <Image type="Background" imageset="ceguiWidget" image="tooltipbackground_black_transparent" />
+ 		    <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="-24" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="-9" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" >
+				    <DimOperator op="Add">
+                                <AbsoluteDim value="48" />
+                            </DimOperator>
+			  </UnifiedDim></Dim>
+ 			  <Dim type="Height" ><UnifiedDim scale="1" type="Height" >
+				    <DimOperator op="Add">
+                                <AbsoluteDim value="18" />
+                            </DimOperator>
+			  </UnifiedDim></Dim>
+                </Area>
+                <ColourRectProperty name="FrameColours" />
+            </FrameComponent>
+        </ImagerySection>
+<ImagerySection name="frame1">
+            <FrameComponent>
+               
+              
+                <Image type="TopLeftCorner" imageset="ceguiWidget" image="tooltiptransparent_topleft_corner" />
+                <Image type="TopRightCorner" imageset="ceguiWidget" image="tooltiptransparent_topright_corner" />
+                <Image type="BottomLeftCorner" imageset="ceguiWidget" image="tooltiptransparent_btmleft_corner" />
+                <Image type="BottomRightCorner" imageset="ceguiWidget" image="tooltiptransparent_btmright_corner" />
+                <Image type="LeftEdge" imageset="ceguiWidget" image="tooltiptransparent_left_tweener" />
+                <Image type="RightEdge" imageset="ceguiWidget" image="tooltiptransparent_right_tweener" />
+                <Image type="TopEdge" imageset="ceguiWidget" image="tooltiptransparent_top_tweener" />
+                <Image type="BottomEdge" imageset="ceguiWidget" image="tooltiptransparent_btm_tweener" />
+		    <Image type="Background" imageset="ceguiWidget" image="tooltipbackground_black_transparent" />
+ 		    <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="-24" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="-9" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" >
+				    <DimOperator op="Add">
+                                <AbsoluteDim value="48" />
+                            </DimOperator>
+			  </UnifiedDim></Dim>
+ 			  <Dim type="Height" ><UnifiedDim scale="1" type="Height" >
+				    <DimOperator op="Add">
+                                <AbsoluteDim value="18" />
+                            </DimOperator>
+			  </UnifiedDim></Dim>
+                </Area>
+                <ColourRectProperty name="FrameColours" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="frameCharacterSlot">
+            <FrameComponent>
+              
+                <Image type="TopLeftCorner" imageset="ceguiWidget" image="tooltiptransparent_topleft_corner" />
+                <Image type="TopRightCorner" imageset="ceguiWidget" image="tooltiptransparent_topright_corner" />
+                <Image type="BottomLeftCorner" imageset="ceguiWidget" image="tooltiptransparent_btmleft_corner" />
+                <Image type="BottomRightCorner" imageset="ceguiWidget" image="tooltiptransparent_btmright_corner" />
+                <Image type="LeftEdge" imageset="ceguiWidget" image="tooltiptransparent_left_tweener" />
+                <Image type="RightEdge" imageset="ceguiWidget" image="tooltiptransparent_right_tweener" />
+                <Image type="TopEdge" imageset="ceguiWidget" image="tooltiptransparent_top_tweener" />
+                <Image type="BottomEdge" imageset="ceguiWidget" image="tooltiptransparent_btm_tweener" />
+		    <Image type="Background" imageset="ceguiWidget" image="tooltipbackground_black_transparent" />
+ 		    <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="-18" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="-9" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" >
+				    <DimOperator op="Add">
+                                <AbsoluteDim value="36" />
+                            </DimOperator>
+			  </UnifiedDim></Dim>
+ 			  <Dim type="Height" ><UnifiedDim scale="1" type="Height" >
+				    <DimOperator op="Add">
+                                <AbsoluteDim value="18" />
+                            </DimOperator>
+			  </UnifiedDim></Dim>
+
+                </Area>
+                <ColourRectProperty name="FrameColours" />
+            </FrameComponent>
+        </ImagerySection>
+
+        <ImagerySection name="itemframe">
+            <FrameComponent>
+                
+                <Image type="TopLeftCorner" imageset="ceguiWidget" image="tooltipfade_topleft_corner" />
+                <Image type="TopRightCorner" imageset="ceguiWidget" image="tooltipfade_topright_corner" />
+                <Image type="BottomLeftCorner" imageset="ceguiWidget" image="tooltipfade_btmleft_corner" />
+                <Image type="BottomRightCorner" imageset="ceguiWidget" image="tooltipfade_btmright_corner" />
+                <Image type="LeftEdge" imageset="ceguiWidget" image="tooltipfade_left_tweener" />
+                <Image type="RightEdge" imageset="ceguiWidget" image="tooltipfade_right_tweener" />
+                <Image type="TopEdge" imageset="ceguiWidget" image="tooltipfade_top_tweener" />
+                <Image type="BottomEdge" imageset="ceguiWidget" image="tooltipfade_btm_tweener" />
+		    <Image type="Background" imageset="ceguiWidget" image="tooltipfade_black_transparent" />
+ 		    <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="-26" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="-13" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" >
+				    <DimOperator op="Add">
+                                <AbsoluteDim value="52" />
+                            </DimOperator>
+			  </UnifiedDim></Dim>
+ 			  <Dim type="Height" ><UnifiedDim scale="1" type="Height" >
+				    <DimOperator op="Add">
+                                <AbsoluteDim value="26" />
+                            </DimOperator>
+			  </UnifiedDim></Dim>
+
+                </Area>
+                <ColourRectProperty name="FrameColours" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="itemframe2">
+            <FrameComponent>
+               
+               
+                <Image type="TopLeftCorner" imageset="ceguiWidget" image="tooltipfade_topleft_corner" />
+                <Image type="TopRightCorner" imageset="ceguiWidget" image="tooltipfade_topright_corner" />
+                <Image type="BottomLeftCorner" imageset="ceguiWidget" image="tooltipfade_btmleft_corner" />
+                <Image type="BottomRightCorner" imageset="ceguiWidget" image="tooltipfade_btmright_corner" />
+                <Image type="LeftEdge" imageset="ceguiWidget" image="tooltipfade_left_tweener" />
+                <Image type="RightEdge" imageset="ceguiWidget" image="tooltipfade_right_tweener" />
+                <Image type="TopEdge" imageset="ceguiWidget" image="tooltipfade_top_tweener" />
+                <Image type="BottomEdge" imageset="ceguiWidget" image="tooltipfade_btm_tweener" />
+		    <Image type="Background" imageset="ceguiWidget" image="tooltipfade_black_transparent" />
+ 		    <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="-26" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="-13" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" >
+				    <DimOperator op="Add">
+                                <AbsoluteDim value="52" />
+                            </DimOperator>
+			  </UnifiedDim></Dim>
+ 			  <Dim type="Height" ><UnifiedDim scale="1" type="Height" >
+				    <DimOperator op="Add">
+                                <AbsoluteDim value="26" />
+                            </DimOperator>
+			  </UnifiedDim></Dim>
+
+                </Area>
+                <ColourRectProperty name="FrameColours" />
+            </FrameComponent>
+        </ImagerySection>
+
+        <ImagerySection name="background">
+            <ImageryComponent>
+                <Area>
+                </Area>
+                <!--<ColourRectProperty name="BackgroundColours" />-->
+                <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="background_noframe">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+                </Area>
+                <!--<ColourRectProperty name="BackgroundColours" />-->
+                <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+    </WidgetLook>
+
+
+
+    <!--
+    ***************************************************
+        ceguiWidget/StaticTextBox
+    ***************************************************
+    -->
+
+    <WidgetLook name="ceguiWidget/StaticTextBox">
+        <Property name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+  	  <PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+	  <PropertyDefinition name="BackgroundColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+        <Property name="FrameEnabled" value="False" />
+        <Property name="BackgroundEnabled" value="False" />
+        <Property name="VertFormatting" Value="Stretched" redrawOnWrite="true" />
+        <Property name="HorzFormatting" Value="WordWrapLeftAligned" redrawOnWrite="true" />
+	  <Property name="Text" Value="" redrawOnWrite="true" />
+        <NamedArea name="WithFrameTextRenderArea">
+            <Area>
+            </Area>
+        </NamedArea>
+        <NamedArea name="WithFrameTextRenderAreaHScroll">
+            <Area>
+            </Area>
+        </NamedArea>
+        <NamedArea name="WithFrameTextRenderAreaVScroll">
+            <Area>
+            </Area>
+        </NamedArea>
+        <NamedArea name="WithFrameTextRenderAreaHVScroll">
+            <Area>
+            </Area>
+        </NamedArea>
+        <NamedArea name="NoFrameTextRenderArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="NoFrameTextRenderAreaHScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="NoFrameTextRenderAreaVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="NoFrameTextRenderAreaHVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="ceguiWidget/HorizontalScrollbar" nameSuffix="__auto_hscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" offset="-12" type="Width" /></Dim>
+                <Dim type="Height" ><AbsoluteDim value="12" /></Dim>
+            </Area>
+            <VertAlignment type="BottomAligned" />
+        </Child>
+        <Child  type="ceguiWidget/VerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><AbsoluteDim value="12" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" offset="-12" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="RightAligned" />
+        </Child>
+        <StateImagery name="Enabled" />
+        <StateImagery name="Disabled" />
+        <StateImagery name="EnabledFrame">
+            <Layer>
+                <Section look="ceguiWidget/StaticShared" section="frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledFrame">
+            <Layer>
+                <Section look="ceguiWidget/StaticShared" section="frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="WithFrameEnabledBackground">
+            <Layer>
+                <Section look="ceguiWidget/StaticShared" section="background" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="WithFrameDisabledBackground">
+            <Layer>
+                <Section look="ceguiWidget/StaticShared" section="background" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="NoFrameEnabledBackground">
+            <Layer>
+                <Section look="ceguiWidget/StaticShared" section="background_noframe" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="NoFrameDisabledBackground">
+            <Layer>
+                <Section look="ceguiWidget/StaticShared" section="background_noframe" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+    <!--
+    ***************************************************
+        ceguiWidget/Editbox
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/Editbox">
+      <PropertyDefinition name="tabOrder" initialValue="" layoutOnWrite="true"/>
+        <PropertyDefinition name="NormalTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="SelectedTextColour" initialValue="FF000000" redrawOnWrite="true" />
+        <PropertyDefinition name="ActiveSelectionColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="InactiveSelectionColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <Property name="MouseCursorImage" value="set:ceguiWidget image:mousetextbar" />
+        <NamedArea name="TextArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="5" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="5" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1.0" offset="-5" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1.0" offset="-5" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <ImagerySection name="selection">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge" ><UnifiedDim scale="1.0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+                </Area>
+
+               <Image imageset="ceguiWidget" image="editbox_selected" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="Carat">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+ 
+                    <Dim type="Width" ><ImageDim imageset="ceguiWidget" image="editboxcarat" dimension="Width" /></Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="editboxcarat" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ReadOnly">
+            <Layer>
+  
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ActiveSelection">
+            <Layer>
+                <Section section="selection">
+                    <ColourProperty name="ActiveSelectionColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="InactiveSelection">
+            <Layer>
+                <Section section="selection">
+                    <ColourProperty name="InactiveSelectionColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+ <!--
+    ***************************************************
+        ceguiWidget/StaticImage
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/StaticImage">
+      <PropertyDefinition name="tabOrder" initialValue="" layoutOnWrite="true"/>
+      <PropertyDefinition name="tabOrderRow" initialValue="" layoutOnWrite="true"/>
+      <PropertyDefinition name="tabOrderColumn" initialValue="" layoutOnWrite="true"/>
+      <PropertyDefinition name="tabOrderGroupMatrix" initialValue="" layoutOnWrite="true"/>
+      <PropertyDefinition name="onClick" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="ImageColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+		<PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+		<PropertyDefinition name="BackgroundColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="VertFormatting" initialValue="Stretched" redrawOnWrite="true" />
+        <PropertyDefinition name="HorzFormatting" initialValue="Stretched" redrawOnWrite="true" />
+        <Property name="BackgroundEnabled" value="False" />
+        <Property name="FrameEnabled" value="False" />
+        <Property name="RiseOnClick" value="False" />
+        <ImagerySection name="image_withframe">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1.0" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1.0" type="Height" /></Dim>
+                </Area>
+                
+                <ImageProperty name="Image" />
+                <ColourRectProperty name="ImageColours" />
+                <VertFormatProperty name="VertFormatting" />
+                <HorzFormatProperty name="HorzFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="image_noframe">
+            <ImageryComponent>
+                <Area>
+					<Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+					<Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+					<Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+					<Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+				</Area>
+                <ImageProperty name="Image" />
+                <ColourRectProperty name="ImageColours" />
+                <VertFormatProperty name="VertFormatting" />
+                <HorzFormatProperty name="HorzFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled" />
+        <StateImagery name="Disabled" />
+        <StateImagery name="EnabledFrame">
+            <Layer>
+                <Section look="ceguiWidget/StaticShared" section="frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="DisabledFrame">
+            <Layer>
+                <Section look="ceguiWidget/StaticShared" section="frame" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="WithFrameEnabledBackground">
+            <Layer>
+                <Section look="ceguiWidget/StaticShared" section="background" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="WithFrameDisabledBackground">
+            <Layer>
+                <Section look="ceguiWidget/StaticShared" section="background" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="NoFrameEnabledBackground">
+            <Layer>
+                <Section look="ceguiWidget/StaticShared" section="background_noframe" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="NoFrameDisabledBackground">
+            <Layer>
+                <Section look="ceguiWidget/StaticShared" section="background_noframe" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="WithFrameImage">
+            <Layer>
+                <Section section="image_withframe" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="NoFrameImage">
+            <Layer>
+                <Section section="image_noframe" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+	<!--
+	***************************************************
+	ceguiWidget/MultiLineEditbox
+	***************************************************
+	-->
+	<WidgetLook name="ceguiWidget/MultiLineEditbox">
+		<PropertyDefinition name="ReadOnlyBGColour" initialValue="FFDFDFDF" />
+		<PropertyDefinition name="NormalTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+		<PropertyDefinition name="SelectedTextColour" initialValue="FF000000" redrawOnWrite="true" />
+		<PropertyDefinition name="ActiveSelectionColour" initialValue="FF607FFF" redrawOnWrite="true" />
+		<PropertyDefinition name="InactiveSelectionColour" initialValue="FF808080" redrawOnWrite="true" />
+		<Property name="MouseCursorImage" value="set:ceguiWidget image:mousetextbar" />
+		<Property name="SelectionBrushImage" value="set:ceguiWidget image:frame2_center" />
+		
+		<NamedArea name="TextArea">
+			<Area>
+			<Dim type="LeftEdge" >
+				<ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" />
+			</Dim>
+			<Dim type="TopEdge" >
+				<ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+			</Dim>
+			<Dim type="RightEdge" >
+				<UnifiedDim scale="1" type="RightEdge">
+					<DimOperator op="Subtract">
+						<ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+					</DimOperator>
+				</UnifiedDim>
+			</Dim>
+			<Dim type="BottomEdge" >
+				<UnifiedDim scale="1" type="BottomEdge">
+					<DimOperator op="Subtract">
+						<ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+					</DimOperator>
+				</UnifiedDim>
+			</Dim>
+			</Area>
+		</NamedArea>
+		<NamedArea name="TextAreaHScroll">
+			<Area>
+				<Dim type="LeftEdge" >
+					<ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" />
+				</Dim>
+				<Dim type="TopEdge" >
+					<ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+				</Dim>
+				<Dim type="RightEdge" >
+					<UnifiedDim scale="1" type="RightEdge">
+						<DimOperator op="Subtract">
+							<ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Height" />
+						</DimOperator>
+					</UnifiedDim>
+				</Dim>
+				<Dim type="BottomEdge" >
+					<UnifiedDim scale="1" offset="-16" type="BottomEdge" />
+				</Dim>
+			</Area>
+		</NamedArea>
+		<NamedArea name="TextAreaVScroll">
+			<Area>
+				<Dim type="LeftEdge" >
+					<ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" />
+				</Dim>
+				<Dim type="TopEdge" >
+					<ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+				</Dim>
+				<Dim type="RightEdge" >
+					<UnifiedDim scale="1" offset="-16" type="RightEdge" />
+				</Dim>
+				<Dim type="BottomEdge" >
+					<UnifiedDim scale="1" type="BottomEdge">
+						<DimOperator op="Subtract">
+							<ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+						</DimOperator>
+					</UnifiedDim>
+				</Dim>
+			</Area>
+		</NamedArea>
+		<NamedArea name="TextAreaHVScroll">
+			<Area>
+				<Dim type="LeftEdge" >
+					<ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" />
+				</Dim>
+				<Dim type="TopEdge" >
+					<ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+				</Dim>
+				<Dim type="RightEdge" >
+					<UnifiedDim scale="1" offset="-16" type="RightEdge" />
+				</Dim>
+				<Dim type="BottomEdge" >
+					<UnifiedDim scale="1" offset="-16" type="BottomEdge" />
+				</Dim>
+			</Area>
+		</NamedArea>
+		<Child  type="ceguiWidget/HorizontalScrollbar" nameSuffix="__auto_hscrollbar__">
+			<Area>
+				<Dim type="LeftEdge" >
+					<AbsoluteDim value="0" />
+				</Dim>
+				<Dim type="TopEdge" >
+					<AbsoluteDim value="0" />
+				</Dim>
+				<Dim type="Width" >
+					<UnifiedDim scale="1" offset="-16" type="Width" />
+				</Dim>
+				<Dim type="Height" >
+					<AbsoluteDim value="16" />
+				</Dim>
+			</Area>
+			<VertAlignment type="BottomAligned" />
+		</Child>
+		<Child  type="ceguiWidget/VerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+			<Area>
+				<Dim type="LeftEdge" >
+					<AbsoluteDim value="0" />
+				</Dim>
+				<Dim type="TopEdge" >
+					<AbsoluteDim value="0" />
+				</Dim>
+				<Dim type="Width" >
+					<AbsoluteDim value="25" />
+				</Dim>
+				<Dim type="Height" >
+					<UnifiedDim scale="1" offset="0" type="Height" />
+				</Dim>
+			</Area>
+			<HorzAlignment type="RightAligned" />
+		</Child>
+		<ImagerySection name="main">
+
+		</ImagerySection>
+<ImagerySection name="Carat">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><ImageDim imageset="ceguiWidget" image="editboxcarat" dimension="Width" /></Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="editboxcarat" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+		</ImagerySection>
+		<StateImagery name="Enabled">
+			<Layer>
+				<Section section="main" />
+			</Layer>
+		</StateImagery>
+		<StateImagery name="ReadOnly">
+			<Layer>
+				<Section section="main">
+					<ColourProperty name="ReadOnlyBGColour" />
+				</Section>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="Disabled">
+			<Layer>
+				<Section section="main">
+					<ColourProperty name="ReadOnlyBGColour" />
+				</Section>
+			</Layer>
+		</StateImagery>
+	</WidgetLook>
+
+	<!--
+	***************************************************
+	ceguiWidget/MultiLineEditboxLeftBar
+	***************************************************
+	-->
+	<WidgetLook name="ceguiWidget/MultiLineEditboxLeftBar">
+		<PropertyDefinition name="ReadOnlyBGColour" initialValue="FFDFDFDF" />
+		<PropertyDefinition name="NormalTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+		<PropertyDefinition name="SelectedTextColour" initialValue="FF000000" redrawOnWrite="true" />
+		<PropertyDefinition name="ActiveSelectionColour" initialValue="FF607FFF" redrawOnWrite="true" />
+		<PropertyDefinition name="InactiveSelectionColour" initialValue="FF808080" redrawOnWrite="true" />
+		<Property name="MouseCursorImage" value="set:ceguiWidget image:mousetextbar" />
+		<Property name="SelectionBrushImage" value="set:ceguiWidget image:frame2_center" />
+		
+		<NamedArea name="TextArea">
+			<Area>
+			<Dim type="LeftEdge" >
+				<ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="27" />
+						</DimOperator>
+			</Dim>
+			<Dim type="TopEdge" >
+				<ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+			</Dim>
+			<Dim type="RightEdge" >
+				<UnifiedDim scale="1" type="RightEdge">
+					<DimOperator op="Subtract">
+						<ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+					</DimOperator>
+				</UnifiedDim>
+			</Dim>
+			<Dim type="BottomEdge" >
+				<UnifiedDim scale="1" type="BottomEdge">
+					<DimOperator op="Subtract">
+						<ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+					</DimOperator>
+				</UnifiedDim>
+			</Dim>
+			</Area>
+		</NamedArea>
+		<NamedArea name="TextAreaHScroll">
+			<Area>
+				<Dim type="LeftEdge" >
+					<ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" />
+				</Dim>
+				<Dim type="TopEdge" >
+					<ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+				</Dim>
+				<Dim type="RightEdge" >
+					<UnifiedDim scale="1" type="RightEdge">
+					<DimOperator op="Subtract">
+						<ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+					</DimOperator>
+					</UnifiedDim>
+				</Dim>
+				<Dim type="BottomEdge" >
+					<UnifiedDim scale="1" offset="-16" type="BottomEdge" />
+				</Dim>
+			</Area>
+		</NamedArea>
+		<NamedArea name="TextAreaVScroll">
+			<Area>
+				<Dim type="LeftEdge" >
+					<ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="27" />
+						</DimOperator>
+				</Dim>
+				<Dim type="TopEdge" >
+					<ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+				</Dim>
+				<Dim type="RightEdge" >
+					<UnifiedDim scale="1" offset="-27" type="RightEdge" />
+				</Dim>
+				<Dim type="BottomEdge" >
+					<UnifiedDim scale="1" type="BottomEdge">
+						<DimOperator op="Subtract">
+							<ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+						</DimOperator>
+					</UnifiedDim>
+				</Dim>
+			</Area>
+		</NamedArea>
+		<NamedArea name="TextAreaHVScroll">
+			<Area>
+				<Dim type="LeftEdge" >
+					<ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="27" />
+						</DimOperator>
+				</Dim>
+				<Dim type="TopEdge" >
+					<ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+				</Dim>
+				<Dim type="RightEdge" >
+					<UnifiedDim scale="1" offset="-27" type="RightEdge" />
+				</Dim>
+				<Dim type="BottomEdge" >
+					<UnifiedDim scale="1" offset="-16" type="BottomEdge" />
+				</Dim>
+			</Area>
+		</NamedArea>
+		<Child  type="ceguiWidget/HorizontalScrollbar" nameSuffix="__auto_hscrollbar__">
+			<Area>
+				<Dim type="LeftEdge" >
+					<AbsoluteDim value="0" />
+				</Dim>
+				<Dim type="TopEdge" >
+					<AbsoluteDim value="0" />
+				</Dim>
+				<Dim type="Width" >
+					<UnifiedDim scale="1" offset="-16" type="Width" />
+				</Dim>
+				<Dim type="Height" >
+					<AbsoluteDim value="16" />
+				</Dim>
+			</Area>
+			<VertAlignment type="BottomAligned" />
+		</Child>
+		<Child  type="ceguiWidget/VerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+			<Area>
+				<Dim type="LeftEdge" >
+					<AbsoluteDim value="0" />
+				</Dim>
+				<Dim type="TopEdge" >
+					<AbsoluteDim value="0" />
+				</Dim>
+				<Dim type="Width" >
+					<AbsoluteDim value="25" />
+				</Dim>
+				<Dim type="Height" >
+					<UnifiedDim scale="1" offset="0" type="Height" />
+				</Dim>
+			</Area>
+			<HorzAlignment type="LeftAligned" />
+		</Child>
+		<ImagerySection name="main">
+		</ImagerySection>
+<ImagerySection name="Carat">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><ImageDim imageset="ceguiWidget" image="editboxcarat" dimension="Width" /></Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="editboxcarat" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+		</ImagerySection>
+		<StateImagery name="Enabled">
+			<Layer>
+				<Section section="main" />
+			</Layer>
+		</StateImagery>
+		<StateImagery name="ReadOnly">
+			<Layer>
+				<Section section="main">
+					<ColourProperty name="ReadOnlyBGColour" />
+				</Section>
+			</Layer>
+		</StateImagery>
+		<StateImagery name="Disabled">
+			<Layer>
+				<Section section="main">
+					<ColourProperty name="ReadOnlyBGColour" />
+				</Section>
+			</Layer>
+		</StateImagery>
+	</WidgetLook>
+
+  
+<!--
+	***************************************************
+	ceguiWidget/StaticText
+	***************************************************
+	-->
+	<WidgetLook name="ceguiWidget/StaticText">
+	  <PropertyDefinition name="tabOrder" initialValue="" layoutOnWrite="true"/>
+	  <PropertyDefinition name="tabOrderRow" initialValue="" layoutOnWrite="true"/>
+	  <PropertyDefinition name="tabOrderColumn" initialValue="" layoutOnWrite="true"/>
+	  <PropertyDefinition name="tabOrderGroupMatrix" initialValue="" layoutOnWrite="true"/>
+	  <PropertyDefinition name="onClick" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="TextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />	
+		<PropertyDefinition name="DropTextColour" initialValue="FF000000" redrawOnWrite="true" />	
+		<PropertyDefinition name="VertFormatting" initialValue="TopAligned" redrawOnWrite="true" /> 
+		<PropertyDefinition name="HorzTextFormatting" initialValue="LeftAligned" redrawOnWrite="true" /> 
+		<Property name="WantsMultiClickEvents" Value="False" /> 
+		<Property name="Font" Value="Serif" /> 
+
+
+
+		<!-- This section draws the text and that's all. --> 
+		<ImagerySection name="label"> 
+			<TextComponent>
+				<Area>
+					<Dim type="LeftEdge" >
+						<AbsoluteDim value="0" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="2" />
+						</DimOperator>
+					</Dim>
+					<Dim type="TopEdge" >
+						<AbsoluteDim value="0" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="2" />
+						</DimOperator>
+					</Dim>
+					<Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+					<Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+
+				</Area>
+				<VertFormatProperty name="VertFormatting" /> 
+				<HorzFormatProperty name="HorzTextFormatting" /> 
+				<ColourProperty name="DropTextColour" />
+			</TextComponent>
+			<TextComponent> 
+				<Area> 
+					<Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim> 
+					<Dim type="TopEdge"><AbsoluteDim value="0" /></Dim> 
+					<Dim type="Width"><UnifiedDim scale="1" type="Width" /></Dim> 
+					<Dim type="Height"><UnifiedDim scale="1" type="Height" /></Dim> 
+				</Area> 
+				<VertFormatProperty name="VertFormatting" /> 
+				<HorzFormatProperty name="HorzTextFormatting" /> 
+				<ColourProperty name="TextColour" /> 
+			</TextComponent> 
+
+		</ImagerySection> 
+
+
+		<!-- Enabled --> 
+		<StateImagery name="Enabled"> 
+			<Layer> 
+				<Section section="label"> 
+					<ColourProperty name="TextColour" /> 
+				</Section> 
+			</Layer> 
+		</StateImagery> 
+
+		<!-- Disabled --> 
+		<StateImagery name="Disabled"> 
+			<Layer> 
+				<Section section="label"> 
+					<ColourProperty name="TextColour" /> 
+				</Section> 
+			</Layer> 
+		</StateImagery> 
+	</WidgetLook>
+	
+
+<!--
+	***************************************************
+	ceguiWidget/StaticTextNoDropShadow
+	***************************************************
+	-->
+	<WidgetLook name="ceguiWidget/StaticTextNoDropShadow">
+	  <PropertyDefinition name="tabOrder" initialValue="" layoutOnWrite="true"/>
+	  <PropertyDefinition name="tabOrderRow" initialValue="" layoutOnWrite="true"/>
+	  <PropertyDefinition name="tabOrderColumn" initialValue="" layoutOnWrite="true"/>
+	  <PropertyDefinition name="tabOrderGroupMatrix" initialValue="" layoutOnWrite="true"/>
+	  <PropertyDefinition name="onClick" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="TextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />	
+		<PropertyDefinition name="DropTextColour" initialValue="FF000000" redrawOnWrite="true" />	
+		<PropertyDefinition name="VertFormatting" initialValue="TopAligned" redrawOnWrite="true" /> 
+		<PropertyDefinition name="HorzTextFormatting" initialValue="LeftAligned" redrawOnWrite="true" /> 
+		<Property name="WantsMultiClickEvents" Value="False" /> 
+		<Property name="Font" Value="Serif" /> 
+
+
+
+		<!-- This section draws the text and that's all. --> 
+		<ImagerySection name="label"> 			
+			<TextComponent> 
+				<Area> 
+					<Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim> 
+					<Dim type="TopEdge"><AbsoluteDim value="0" /></Dim> 
+					<Dim type="Width"><UnifiedDim scale="1" type="Width" /></Dim> 
+					<Dim type="Height"><UnifiedDim scale="1" type="Height" /></Dim> 
+				</Area> 
+				<VertFormatProperty name="VertFormatting" /> 
+				<HorzFormatProperty name="HorzTextFormatting" /> 
+				<ColourProperty name="TextColour" /> 
+			</TextComponent> 
+
+		</ImagerySection> 
+
+
+		<!-- Enabled --> 
+		<StateImagery name="Enabled"> 
+			<Layer> 
+				<Section section="label"> 
+					<ColourProperty name="TextColour" /> 
+				</Section> 
+			</Layer> 
+		</StateImagery> 
+
+		<!-- Disabled --> 
+		<StateImagery name="Disabled"> 
+			<Layer> 
+				<Section section="label"> 
+					<ColourProperty name="TextColour" /> 
+				</Section> 
+			</Layer> 
+		</StateImagery> 
+	</WidgetLook>	
+
+<!--
+	***************************************************
+	ceguiWidget/PlayerNameText
+	***************************************************
+	-->
+	<WidgetLook name="ceguiWidget/PlayerNameText">
+	  <PropertyDefinition name="tabOrder" initialValue="" layoutOnWrite="true"/>
+	  <PropertyDefinition name="tabOrderRow" initialValue="" layoutOnWrite="true"/>
+	  <PropertyDefinition name="tabOrderColumn" initialValue="" layoutOnWrite="true"/>
+	  <PropertyDefinition name="tabOrderGroupMatrix" initialValue="" layoutOnWrite="true"/>
+	  <PropertyDefinition name="onClick" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="TextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />	
+		<PropertyDefinition name="DropTextColour" initialValue="FF000000" redrawOnWrite="true" />	
+		<PropertyDefinition name="VertFormatting" initialValue="TopAligned" redrawOnWrite="true" /> 
+		<PropertyDefinition name="HorzTextFormatting" initialValue="LeftAligned" redrawOnWrite="true" /> 
+		<Property name="WantsMultiClickEvents" Value="False" /> 
+		<Property name="Font" Value="Arial" /> 
+
+
+
+		<!-- This section draws the text and that's all. --> 
+		<ImagerySection name="label"> 
+			<TextComponent>
+				<Area>
+					<Dim type="LeftEdge" >
+						<AbsoluteDim value="0" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="2" />
+						</DimOperator>
+					</Dim>
+					<Dim type="TopEdge" >
+						<AbsoluteDim value="0" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="2" />
+						</DimOperator>
+					</Dim>
+					<Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+					<Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+
+				</Area>
+				<VertFormatProperty name="VertFormatting" /> 
+				<HorzFormatProperty name="HorzTextFormatting" /> 
+				<ColourProperty name="DropTextColour" />
+			</TextComponent>
+			<TextComponent> 
+				<Area> 
+					<Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim> 
+					<Dim type="TopEdge"><AbsoluteDim value="0" /></Dim> 
+					<Dim type="Width"><UnifiedDim scale="1" type="Width" /></Dim> 
+					<Dim type="Height"><UnifiedDim scale="1" type="Height" /></Dim> 
+				</Area> 
+				<VertFormatProperty name="VertFormatting" /> 
+				<HorzFormatProperty name="HorzTextFormatting" /> 
+				<ColourProperty name="TextColour" /> 
+			</TextComponent> 
+
+		</ImagerySection> 
+
+
+		<!-- Enabled --> 
+		<StateImagery name="Enabled"> 
+			<Layer> 
+				<Section section="label"> 
+					<ColourProperty name="TextColour" /> 
+				</Section> 
+			</Layer> 
+		</StateImagery> 
+
+		<!-- Disabled --> 
+		<StateImagery name="Disabled"> 
+			<Layer> 
+				<Section section="label"> 
+					<ColourProperty name="TextColour" /> 
+				</Section> 
+			</Layer> 
+		</StateImagery> 
+	</WidgetLook>	
+	
+<!--
+	***************************************************
+	ceguiWidget/StaticTextOutline
+	***************************************************
+	-->
+	<WidgetLook name="ceguiWidget/StaticTextOutline">
+		<PropertyDefinition name="TextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />	
+		<PropertyDefinition name="DropTextColour" initialValue="FF000000" redrawOnWrite="true" />	
+		<PropertyDefinition name="VertFormatting" initialValue="TopAligned" redrawOnWrite="true" /> 
+		<PropertyDefinition name="HorzTextFormatting" initialValue="LeftAligned" redrawOnWrite="true" /> 
+		<Property name="WantsMultiClickEvents" Value="False" /> 
+		<Property name="Font" Value="Serif" /> 
+
+
+
+		<!-- This section draws the text and that's all. --> 
+		<ImagerySection name="label"> 
+			<TextComponent>
+				<Area>
+					<Dim type="LeftEdge" >
+						<AbsoluteDim value="0" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="1" />
+						</DimOperator>
+					</Dim>
+					<Dim type="TopEdge" >
+						<AbsoluteDim value="0" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="1" />
+						</DimOperator>
+					</Dim>
+					<Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+					<Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+
+				</Area>
+				<VertFormatProperty name="VertFormatting" /> 
+				<HorzFormatProperty name="HorzTextFormatting" /> 
+				<ColourProperty name="DropTextColour" />
+			</TextComponent>
+			<TextComponent>
+				<Area>
+					<Dim type="LeftEdge" >
+						<AbsoluteDim value="0" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="-1" />
+						</DimOperator>
+					</Dim>
+					<Dim type="TopEdge" >
+						<AbsoluteDim value="0" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="-1" />
+						</DimOperator>
+					</Dim>
+					<Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+					<Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+
+				</Area>
+				<VertFormatProperty name="VertFormatting" /> 
+				<HorzFormatProperty name="HorzTextFormatting" /> 
+				<ColourProperty name="DropTextColour" />
+			</TextComponent>
+			<TextComponent>
+				<Area>
+					<Dim type="LeftEdge" >
+						<AbsoluteDim value="0" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="1" />
+						</DimOperator>
+					</Dim>
+					<Dim type="TopEdge" >
+						<AbsoluteDim value="0" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="-1" />
+						</DimOperator>
+					</Dim>
+					<Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+					<Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+
+				</Area>
+				<VertFormatProperty name="VertFormatting" /> 
+				<HorzFormatProperty name="HorzTextFormatting" /> 
+				<ColourProperty name="DropTextColour" />
+			</TextComponent>
+			<TextComponent>
+				<Area>
+					<Dim type="LeftEdge" >
+						<AbsoluteDim value="0" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="-1" />
+						</DimOperator>
+					</Dim>
+					<Dim type="TopEdge" >
+						<AbsoluteDim value="0" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="1" />
+						</DimOperator>
+					</Dim>
+					<Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+					<Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+
+				</Area>
+				<VertFormatProperty name="VertFormatting" /> 
+				<HorzFormatProperty name="HorzTextFormatting" /> 
+				<ColourProperty name="DropTextColour" />
+			</TextComponent>
+
+			<TextComponent> 
+				<Area> 
+					<Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim> 
+					<Dim type="TopEdge"><AbsoluteDim value="0" /></Dim> 
+					<Dim type="Width"><UnifiedDim scale="1" type="Width" /></Dim> 
+					<Dim type="Height"><UnifiedDim scale="1" type="Height" /></Dim> 
+				</Area> 
+				<VertFormatProperty name="VertFormatting" /> 
+				<HorzFormatProperty name="HorzTextFormatting" /> 
+				<ColourProperty name="TextColour" /> 
+			</TextComponent> 
+			
+		</ImagerySection> 
+
+
+		<!-- Enabled --> 
+		<StateImagery name="Enabled"> 
+			<Layer> 
+				<Section section="label"> 
+					<ColourProperty name="TextColour" /> 
+				</Section> 
+			</Layer> 
+		</StateImagery> 
+
+		<!-- Disabled --> 
+		<StateImagery name="Disabled"> 
+			<Layer> 
+				<Section section="label"> 
+					<ColourProperty name="TextColour" /> 
+				</Section> 
+			</Layer> 
+		</StateImagery> 
+	</WidgetLook>
+<!--
+	***************************************************
+	ceguiWidget/FloatingText
+	***************************************************
+	-->
+	<WidgetLook name="ceguiWidget/FloatingText">
+		<PropertyDefinition name="TextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />	
+		<PropertyDefinition name="DropTextColour" initialValue="FF000000" redrawOnWrite="true" />	
+		<PropertyDefinition name="VertFormatting" initialValue="TopAligned" redrawOnWrite="true" /> 
+		<PropertyDefinition name="HorzTextFormatting" initialValue="LeftAligned" redrawOnWrite="true" /> 
+		<Property name="WantsMultiClickEvents" Value="False" /> 
+		<Property name="Font" Value="Serif" /> 
+
+
+
+		<!-- This section draws the text and that's all. --> 
+		<ImagerySection name="label"> 
+			<TextComponent>
+				<Area>
+					<Dim type="LeftEdge" >
+						<AbsoluteDim value="0" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="1" />
+						</DimOperator>
+					</Dim>
+					<Dim type="TopEdge" >
+						<AbsoluteDim value="0" />
+						<DimOperator op="Add">
+							<AbsoluteDim value="1" />
+						</DimOperator>
+					</Dim>
+					<Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+					<Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+
+				</Area>
+				<VertFormatProperty name="VertFormatting" /> 
+				<HorzFormatProperty name="HorzTextFormatting" /> 
+				<ColourProperty name="DropTextColour" />
+			</TextComponent>
+			
+
+			<TextComponent> 
+				<Area> 
+					<Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim> 
+					<Dim type="TopEdge"><AbsoluteDim value="0" /></Dim> 
+					<Dim type="Width"><UnifiedDim scale="1" type="Width" /></Dim> 
+					<Dim type="Height"><UnifiedDim scale="1" type="Height" /></Dim> 
+				</Area> 
+				<VertFormatProperty name="VertFormatting" /> 
+				<HorzFormatProperty name="HorzTextFormatting" /> 
+				<ColourProperty name="TextColour" /> 
+			</TextComponent> 
+
+		</ImagerySection> 
+
+
+		<!-- Enabled --> 
+		<StateImagery name="Enabled"> 
+			<Layer> 
+				<Section section="label"> 
+					<ColourProperty name="TextColour" /> 
+				</Section> 
+			</Layer> 
+		</StateImagery> 
+
+		<!-- Disabled --> 
+		<StateImagery name="Disabled"> 
+			<Layer> 
+				<Section section="label"> 
+					<ColourProperty name="TextColour" /> 
+				</Section> 
+			</Layer> 
+		</StateImagery> 
+	</WidgetLook>
+	
+	<!--
+    ***************************************************
+        ceguiWidget/Button
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/Button">
+        <PropertyDefinition name="NormalTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="HoverTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="PushedTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="DisabledTextColour" initialValue="FF888888" redrawOnWrite="true" />
+        <ImagerySection name="label">
+            <TextComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <VertFormat type="CentreAligned" />
+                <HorzFormat type="WordWrapCentreAligned" />
+            </TextComponent>
+        </ImagerySection>
+        <ImagerySection name="normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="ceguiWidget" image="frame2_topleft" />
+                <Image type="TopRightCorner" imageset="ceguiWidget" image="frame2_topright" />
+                <Image type="BottomLeftCorner" imageset="ceguiWidget" image="frame2_bottomleft" />
+                <Image type="BottomRightCorner" imageset="ceguiWidget" image="frame2_bottomright" />
+                <Image type="LeftEdge" imageset="ceguiWidget" image="frame2_left" />
+                <Image type="TopEdge" imageset="ceguiWidget" image="frame2_topcenter" />
+                <Image type="RightEdge" imageset="ceguiWidget" image="frame2_right" />
+                <Image type="BottomEdge" imageset="ceguiWidget" image="frame2_bottomcenter" />
+                <Image type="Background" imageset="ceguiWidget" image="frame2_center" />
+            </FrameComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="frame2_center" />
+                    <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFAFAFAF" bottomRight="FFAFAFAF" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="hover">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="ceguiWidget" image="frame2_topleft_hover" />
+                <Image type="TopRightCorner" imageset="ceguiWidget" image="frame2_topright_hover" />
+                <Image type="BottomLeftCorner" imageset="ceguiWidget" image="frame2_bottomleft_hover" />
+                <Image type="BottomRightCorner" imageset="ceguiWidget" image="frame2_bottomright_hover" />
+                <Image type="LeftEdge" imageset="ceguiWidget" image="frame2_left_hover" />
+                <Image type="TopEdge" imageset="ceguiWidget" image="frame2_topcenter_hover" />
+                <Image type="RightEdge" imageset="ceguiWidget" image="frame2_right_hover" />
+                <Image type="BottomEdge" imageset="ceguiWidget" image="frame2_bottomcenter_hover" />
+                <Image type="Background" imageset="ceguiWidget" image="frame2_center_hover" />
+            </FrameComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topleft_hover" dimension="Width" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topcenter_hover" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_right_hover" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter_hover" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+
+                <Colours topLeft="FFF2FFF2" topRight="FFF2FFF2" bottomLeft="FFCFD9CF" bottomRight="FFCFD9CF" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="pushed">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="ceguiWidget" image="frame2_topleft_hover" />
+                <Image type="TopRightCorner" imageset="ceguiWidget" image="frame2_topright_hover" />
+                <Image type="BottomLeftCorner" imageset="ceguiWidget" image="frame2_bottomleft_hover" />
+                <Image type="BottomRightCorner" imageset="ceguiWidget" image="frame2_bottomright_hover" />
+                <Image type="LeftEdge" imageset="ceguiWidget" image="frame2_left_hover" />
+                <Image type="TopEdge" imageset="ceguiWidget" image="frame2_topcenter_hover" />
+                <Image type="RightEdge" imageset="ceguiWidget" image="frame2_right_hover" />
+                <Image type="BottomEdge" imageset="ceguiWidget" image="frame2_bottomcenter_hover" />
+                <Image type="Background" imageset="ceguiWidget" image="frame2_center_hover" />
+            </FrameComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topleft_hover" dimension="Width" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topcenter_hover" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_right_hover" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter_hover" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+
+                    <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFAFAFAF" bottomRight="FFAFAFAF" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="disabled">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <AbsoluteDim value="0" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge" />
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge" />
+                    </Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="ceguiWidget" image="frame2_topleft" />
+                <Image type="TopRightCorner" imageset="ceguiWidget" image="frame2_topright" />
+                <Image type="BottomLeftCorner" imageset="ceguiWidget" image="frame2_bottomleft" />
+                <Image type="BottomRightCorner" imageset="ceguiWidget" image="frame2_bottomright" />
+                <Image type="LeftEdge" imageset="ceguiWidget" image="frame2_left" />
+                <Image type="TopEdge" imageset="ceguiWidget" image="frame2_topcenter" />
+                <Image type="RightEdge" imageset="ceguiWidget" image="frame2_right" />
+                <Image type="BottomEdge" imageset="ceguiWidget" image="frame2_bottomcenter" />
+                <Image type="Background" imageset="ceguiWidget" image="frame2_center" />
+            </FrameComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topleft" dimension="Width" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="frame2_center" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Normal">
+            <Layer>
+                <Section section="normal" />
+                <Section section="label">
+                    <ColourProperty name="NormalTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Hover">
+            <Layer>
+                <Section section="hover" />
+                <Section section="label">
+                    <ColourProperty name="HoverTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Pushed">
+            <Layer>
+                <Section section="pushed" />
+                <Section section="label">
+                    <ColourProperty name="PushedTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="PushedOff">
+            <Layer>
+                <Section section="hover" />
+                <Section section="label">
+                    <ColourProperty name="HoverTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="disabled">
+                    <Colours topLeft="FFDFDFDF" topRight="FFDFDFDF" bottomLeft="FFDFDFDF" bottomRight="FFDFDFDF" />
+                </Section>
+                <Section section="label">
+                    <ColourProperty name="DisabledTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+
+
+
+    <!--
+    ***************************************************
+        ceguiWidget/ImageButton
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/ImageButton">
+      <PropertyDefinition name="tabOrder" initialValue="" layoutOnWrite="true"/>
+        <PropertyDefinition name="NormalImage" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="HoverImage" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="PushedImage" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="DisabledImage" initialValue="" redrawOnWrite="true" />
+        <PropertyDefinition name="VertImageFormatting" initialValue="Stretched" redrawOnWrite="true" />
+        <PropertyDefinition name="HorzImageFormatting" initialValue="Stretched" redrawOnWrite="true" />
+	  <PropertyDefinition name="onClick" initialValue="" layoutOnWrite="true"/>
+        <ImagerySection name="normal">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <ImageProperty name="NormalImage" />
+                <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="hover">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <ImageProperty name="HoverImage" />
+                <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="pushed">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <ImageProperty name="PushedImage" />
+                <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="disabled">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <ImageProperty name="DisabledImage" />
+                <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Normal">
+            <Layer>
+                <Section section="normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Hover">
+            <Layer>
+                <Section section="hover" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Pushed">
+            <Layer>
+                <Section section="pushed" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="PushedOff">
+            <Layer>
+                <Section section="hover" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="disabled" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+
+
+<!--
+    ***************************************************
+        ceguiWidget/IconButton
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/IconButton">
+        <PropertyDefinition name="IconImage" redrawOnWrite="true" />
+        <PropertyDefinition name="IconColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+        <Property name="WantsMultiClickEvents" value="False" />
+        <ImagerySection name="icon">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge"><UnifiedDim scale="1" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge"><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+                </Area>
+                <ImageProperty name="IconImage" />
+                <ColourRectProperty name="IconColours" />
+                <VertFormat type="CentreAligned" />
+                <HorzFormat type="CentreAligned" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Normal">
+            <Layer>
+                <Section look="ceguiWidget/Button" section="normal" />
+                <Section section="icon" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Hover">
+            <Layer>
+                <Section look="ceguiWidget/Button" section="hover" />
+                <Section section="icon" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Pushed">
+            <Layer>
+                <Section look="ceguiWidget/Button" section="pushed" />
+                <Section section="icon" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section look="ceguiWidget/Button" section="disabled">
+                    <Colours topLeft="FFDFDFDF" topRight="FFDFDFDF" bottomLeft="FFDFDFDF" bottomRight="FFDFDFDF" />
+                </Section>
+                <Section section="icon" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+
+    <!--
+    ***************************************************
+        ceguiWidget/HorizontalScrollbarThumb
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/HorizontalScrollbarThumb">
+        <Property name="HorzFree" value="True" />
+        <Property name="UnifiedMinSize" value="{{0,16},{0,0}}" />
+        <ImagerySection name="normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1.0" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1.0" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="ceguiWidget" image="frame2_topleft" />
+                <Image type="TopRightCorner" imageset="ceguiWidget" image="frame2_topright" />
+                <Image type="BottomLeftCorner" imageset="ceguiWidget" image="frame2_bottomleft" />
+                <Image type="BottomRightCorner" imageset="ceguiWidget" image="frame2_bottomright" />
+                <Image type="LeftEdge" imageset="ceguiWidget" image="frame2_left" />
+                <Image type="TopEdge" imageset="ceguiWidget" image="frame2_topcenter" />
+                <Image type="RightEdge" imageset="ceguiWidget" image="frame2_right" />
+                <Image type="BottomEdge" imageset="ceguiWidget" image="frame2_bottomcenter" />  
+                <Image type="Background" imageset="ceguiWidget" image="frame2_center" />
+                
+            </FrameComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topleft" dimension="Width" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="frame2_center" />
+                    <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFAFAFAF" bottomRight="FFAFAFAF" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="hover">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1.0" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1.0" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="ceguiWidget" image="frame2_topleft_hover" />
+                <Image type="TopRightCorner" imageset="ceguiWidget" image="frame2_topright_hover" />
+                <Image type="BottomLeftCorner" imageset="ceguiWidget" image="frame2_bottomleft_hover" />
+                <Image type="BottomRightCorner" imageset="ceguiWidget" image="frame2_bottomright_hover" />
+                <Image type="LeftEdge" imageset="ceguiWidget" image="frame2_left_hover" />
+                <Image type="TopEdge" imageset="ceguiWidget" image="frame2_topcenter_hover" />
+                <Image type="RightEdge" imageset="ceguiWidget" image="frame2_right_hover" />
+                <Image type="BottomEdge" imageset="ceguiWidget" image="frame2_bottomcenter_hover" />
+                <Image type="Background" imageset="ceguiWidget" image="frame2_center_hover" />
+            </FrameComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topleft" dimension="Width" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topcenter_hover" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_right_hover" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter_hover" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="frame2_center" />
+                <Colours topLeft="FFF2FFF2" topRight="FFF2FFF2" bottomLeft="FFCFD9CF" bottomRight="FFCFD9CF" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="pushed">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1.0" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1.0" type="Height" /></Dim>
+                </Area>
+                <Image type="TopLeftCorner" imageset="ceguiWidget" image="frame2_topleft_hover" />
+                <Image type="TopRightCorner" imageset="ceguiWidget" image="frame2_topright_hover" />
+                <Image type="BottomLeftCorner" imageset="ceguiWidget" image="frame2_bottomleft_hover" />
+                <Image type="BottomRightCorner" imageset="ceguiWidget" image="frame2_bottomright_hover" />
+                <Image type="LeftEdge" imageset="ceguiWidget" image="frame2_left_hover" />
+                <Image type="TopEdge" imageset="ceguiWidget" image="frame2_topcenter_hover" />
+                <Image type="RightEdge" imageset="ceguiWidget" image="frame2_right_hover" />
+                <Image type="BottomEdge" imageset="ceguiWidget" image="frame2_bottomcenter_hover" />
+                <Image type="Background" imageset="ceguiWidget" image="frame2_center_hover" />
+            </FrameComponent>
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topleft_hover" dimension="Width" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topcenter_hover" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_right_hover" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter_hover" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="frame2_center" />
+                    <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFAFAFAF" bottomRight="FFAFAFAF" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="gripper">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topleft" dimension="Width" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="scrollbutton_horz_normal" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="CentreAligned" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Normal">
+            <Layer>
+                <Section section="normal" />
+                <Section section="gripper">
+                    <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFAFAFAF" bottomRight="FFAFAFAF" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Hover">
+            <Layer>
+                <Section section="hover" />
+                <Section section="gripper">
+               	 <Colours topLeft="FFF2FFF2" topRight="FFF2FFF2" bottomLeft="FFCFD9CF" bottomRight="FFCFD9CF" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Pushed">
+            <Layer>
+                <Section section="pushed" />
+                <Section section="gripper">
+                    <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFAFAFAF" bottomRight="FFAFAFAF" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+    
+    
+<!--
+    ***************************************************
+        ceguiWidget/VerticalScrollbarThumb
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/VerticalScrollbarThumb">
+        <Property name="VertFree" value="True" />
+        <Property name="UnifiedMinSize" value="{{0,0},{0,16}}" />
+        <ImagerySection name="normal">
+             <ImageryComponent>
+<Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topleft" dimension="Width" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="scrollbutton_center_normal" />
+                <VertFormat type="CentreAligned" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="hover">
+             <ImageryComponent>
+<Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topleft" dimension="Width" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                 <Image imageset="ceguiWidget" image="scrollbutton_center_hover" />
+                <VertFormat type="CentreAligned" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="pushed">
+             <ImageryComponent>
+<Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topleft" dimension="Width" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="scrollbutton_center_hover" />
+                <VertFormat type="CentreAligned" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="gripper">
+            <ImageryComponent>
+<Area>
+                    <Dim type="LeftEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topleft" dimension="Width" />
+                    </Dim>
+                    <Dim type="TopEdge">
+                        <ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+                    </Dim>
+                    <Dim type="RightEdge">
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge">
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="scrollbutton_center_normal" />
+                <VertFormat type="CentreAligned" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Normal">
+            <Layer>
+                <Section section="normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Hover">
+            <Layer>
+                <Section section="hover" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Pushed">
+            <Layer>
+                <Section section="pushed" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>    
+    
+<!--
+    ***************************************************
+        ceguiWidget/VerticalScrollbar
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/VerticalScrollbar">
+        <Property name="VerticalScrollbar" value="True" />
+        <Property name="WantsMultiClickEvents" value="False" />
+        <NamedArea name="ThumbTrackArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="25" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1.0" offset="-50" type="Height" /></Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="ceguiWidget/ImageButton" nameSuffix="__auto_incbtn__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Width" /></Dim>
+            </Area>
+            <VertAlignment type="BottomAligned" />
+            <Property name="NormalImage" value="set:ceguiWidget image:scrollbutton_bottom_normal" />
+            <Property name="HoverImage" value="set:ceguiWidget image:scrollbutton_bottom_hover" />
+            <Property name="PushedImage" value="set:ceguiWidget image:scrollbutton_bottom_hover" />
+        </Child>
+        <Child  type="ceguiWidget/ImageButton" nameSuffix="__auto_decbtn__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Width" /></Dim>
+            </Area>
+            <Property name="NormalImage" value="set:ceguiWidget image:scrollbutton_top_normal" />
+            <Property name="HoverImage" value="set:ceguiWidget image:scrollbutton_top_hover" />
+            <Property name="PushedImage" value="set:ceguiWidget image:scrollbutton_top_hover" />
+        </Child>
+        <Child  type="ceguiWidget/VerticalScrollbarThumb" nameSuffix="__auto_thumb__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                <Dim type="Height" ><AbsoluteDim value="18" /></Dim>
+            </Area>
+        </Child>
+        <ImagerySection name="main">
+            <ImageryComponent>
+                           <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="25" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1.0" offset="-50" type="Height" /></Dim>
+            </Area>
+                <Image imageset="ceguiWidget" image="frame2_center" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="main">
+                    <Colours topLeft="FFDFDFDF" topRight="FFDFDFDF" bottomLeft="FFDFDFDF" bottomRight="FFDFDFDF" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="main">
+                    <Colours topLeft="FFBFBFBF" topRight="FFBFBFBF" bottomLeft="FFBFBFBF" bottomRight="FFBFBFBF" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+   
+ <!--
+    ***************************************************
+        ceguiWidget/HorizontalScrollbar
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/HorizontalScrollbar">
+        <Property name="WantsMultiClickEvents" value="False" />
+        <NamedArea name="ThumbTrackArea">
+            <Area>
+                <Dim type="LeftEdge" ><UnifiedDim scale="1" type="Height" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1.0" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <UnifiedDim scale="1" type="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="ceguiWidget/IconButton" nameSuffix="__auto_incbtn__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" type="Height" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="RightAligned" />
+            <Property name="IconImage" value="set:ceguiWidget image:scrollbutton_right_normal" />
+        </Child>
+        <Child  type="ceguiWidget/IconButton" nameSuffix="__auto_decbtn__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" type="Height" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+            <Property name="IconImage" value="set:ceguiWidget image:scrollbutton_left_normal" />
+        </Child>
+        <Child  type="ceguiWidget/HorizontalScrollbarThumb" nameSuffix="__auto_thumb__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="0.2" type="Width" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+        </Child>
+        <ImagerySection name="main">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><ImageDim imageset="ceguiWidget" image="scrollbutton_left_normal" dimension="Height" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge" ><UnifiedDim scale="1.0" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="scrollbutton_right_normal" dimension="Height" />
+                            </DimOperator>
+                        </UnifiedDim></Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="frame2_center" />
+                <Colours topLeft="FFDFDFDF" topRight="FFDFDFDF" bottomLeft="FFDFDFDF" bottomRight="FFDFDFDF" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="main" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="main" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>        
+
+<!--
+    ***************************************************
+        ceguiWidget/ScrollablePane
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/ScrollablePane">
+        <NamedArea name="ViewableArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1.0" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ViewableAreaHScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1.0" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1.0" offset="-16" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ViewableAreaVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1.0" offset="-16" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ViewableAreaHVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1.0" offset="-16" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1.0" offset="-16" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="ceguiWidget/HorizontalScrollbar" nameSuffix="__auto_hscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" offset="-16" type="Width" /></Dim>
+                <Dim type="Height" ><AbsoluteDim value="16" /></Dim>
+            </Area>
+            <VertAlignment type="BottomAligned" />
+        </Child>
+        <Child  type="ceguiWidget/VerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><AbsoluteDim value="25" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" offset="0" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="RightAligned" />
+        </Child>
+        <StateImagery name="Enabled" />
+        <StateImagery name="Disabled" />
+    </WidgetLook>
+    
+    
+  <!--
+     ***************************************************
+         ceguiWidget/FrameWindow
+     ***************************************************
+     -->
+     <WidgetLook name="ceguiWidget/FrameWindow">
+         <PropertyLinkDefinition name="CaptionColour" widget="__auto_titlebar__" targetProperty="CaptionColour" initialValue="FFFFFFFF" />
+         <PropertyLinkDefinition name="TitlebarFont" widget="__auto_titlebar__" targetProperty="Font" />
+         <Property name="NSSizingCursorImage" value="set:ceguiWidget image:blank" />
+         <Property name="EWSizingCursorImage" value="set:ceguiWidget image:blank" />
+         <Property name="NWSESizingCursorImage" value="set:ceguiWidget image:blank" />
+         <Property name="NESWSizingCursorImage" value="set:ceguiWidget image:blank" />
+         <Property name="UnifiedMinSize" value="{{0.1,0},{0.1,0}}" />
+         <NamedArea name="ClientWithTitleWithFrame">
+             <Area>
+                 <Dim type="LeftEdge">
+                     <ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" />
+                 </Dim>
+                 <Dim type="TopEdge">
+                     <WidgetDim widget="__auto_titlebar__" dimension="BottomEdge" />
+                 </Dim>
+                 <Dim type="RightEdge">
+                     <UnifiedDim scale="1" type="RightEdge">
+                         <DimOperator op="Subtract">
+                             <ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+                         </DimOperator>
+                     </UnifiedDim>
+                 </Dim>
+                 <Dim type="BottomEdge">
+                     <UnifiedDim scale="1" type="BottomEdge">
+                         <DimOperator op="Subtract">
+                             <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+                         </DimOperator>
+                     </UnifiedDim>
+                 </Dim>
+             </Area>
+         </NamedArea>
+         <NamedArea name="ClientWithTitleNoFrame">
+             <Area>
+                 <Dim type="LeftEdge">
+                     <AbsoluteDim value="0" />
+                 </Dim>
+                 <Dim type="TopEdge">
+                     <WidgetDim widget="__auto_titlebar__" dimension="BottomEdge" />
+                 </Dim>
+                 <Dim type="RightEdge">
+                     <UnifiedDim scale="1" type="RightEdge" />
+                 </Dim>
+                 <Dim type="BottomEdge">
+                     <UnifiedDim scale="1" type="BottomEdge" />
+                 </Dim>
+             </Area>
+         </NamedArea>
+         <NamedArea name="ClientNoTitleWithFrame">
+             <Area>
+                 <Dim type="LeftEdge">
+                     <ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" />
+                 </Dim>
+                 <Dim type="TopEdge">
+                     <ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+                 </Dim>
+                 <Dim type="RightEdge">
+                     <UnifiedDim scale="1" type="RightEdge">
+                         <DimOperator op="Subtract">
+                             <ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+                         </DimOperator>
+                     </UnifiedDim>
+                 </Dim>
+                 <Dim type="BottomEdge">
+                     <UnifiedDim scale="1" type="BottomEdge">
+                         <DimOperator op="Subtract">
+                             <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+                         </DimOperator>
+                     </UnifiedDim>
+                 </Dim>
+             </Area>
+         </NamedArea>
+         <NamedArea name="ClientNoTitleNoFrame">
+             <Area>
+                 <Dim type="LeftEdge">
+                     <AbsoluteDim value="0" />
+                 </Dim>
+                 <Dim type="TopEdge">
+                     <AbsoluteDim value="0" />
+                 </Dim>
+                 <Dim type="RightEdge">
+                     <UnifiedDim scale="1" type="RightEdge" />
+                 </Dim>
+                 <Dim type="BottomEdge">
+                     <UnifiedDim scale="1" type="BottomEdge" />
+                 </Dim>
+             </Area>
+         </NamedArea>
+         <Child type="ceguiWidget/Titlebar" nameSuffix="__auto_titlebar__">
+             <Area>
+                 <Dim type="LeftEdge">
+                     <AbsoluteDim value="0" />
+                 </Dim>
+                 <Dim type="TopEdge">
+                     <AbsoluteDim value="0" />
+                 </Dim>
+                 <Dim type="RightEdge">
+                     <UnifiedDim scale="1" type="RightEdge" />
+                 </Dim>
+                 <Dim type="Height">
+                     <FontDim widget="__auto_titlebar__" type="LineSpacing">
+                         <DimOperator op="Multiply">
+                             <AbsoluteDim value="1.5" />
+                         </DimOperator>
+                     </FontDim>
+                 </Dim>
+             </Area>
+             <Property name="AlwaysOnTop" value="False" />
+         </Child>
+         <Child type="ceguiWidget/SystemButton" nameSuffix="__auto_closebutton__">
+             <Area>
+                 <Dim type="LeftEdge">
+                     <UnifiedDim scale="1" type="LeftEdge">
+                         <DimOperator op="Subtract">
+                             <AbsoluteDim value="0.5">
+                                 <DimOperator op="Multiply">
+                                     <ImageDim imageset="ceguiWidget" image="close_standard" dimension="Width">
+                                         <DimOperator op="Add">
+                                             <WidgetDim widget="__auto_titlebar__" dimension="Height" />
+                                         </DimOperator>
+                                     </ImageDim>
+                                 </DimOperator>
+                             </AbsoluteDim>
+                         </DimOperator>
+                     </UnifiedDim>
+                 </Dim>
+                 <Dim type="TopEdge">
+                     <WidgetDim widget="__auto_titlebar__" dimension="Height">
+                         <DimOperator op="Subtract">
+                             <AbsoluteDim value="0.5">
+                                 <DimOperator op="Multiply">
+                                     <WidgetDim widget="__auto_titlebar__" dimension="Height">
+                                         <DimOperator op="Add">
+                                             <ImageDim imageset="ceguiWidget" image="close_standard" dimension="Height" />
+                                         </DimOperator>
+                                     </WidgetDim>
+                                 </DimOperator>
+                             </AbsoluteDim>
+                         </DimOperator>
+                     </WidgetDim>
+                 </Dim>
+                 <Dim type="Width">
+                     <ImageDim imageset="ceguiWidget" image="close_standard" dimension="Width" />
+                 </Dim>
+                 <Dim type="Height">
+                     <ImageDim imageset="ceguiWidget" image="close_standard" dimension="Height" />
+                 </Dim>
+             </Area>
+             <Property name="AlwaysOnTop" value="True" />
+             <Property name="NormalImage" value="set:ceguiWidget image:close_standard" />
+             <Property name="HoverImage" value="set:ceguiWidget image:close_clicked" />
+             <Property name="PushedImage" value="set:ceguiWidget image:close_clicked" />
+         </Child>
+         <ImagerySection name="withtitle_frame">
+             <FrameComponent>
+                 <Area>
+                     <Dim type="LeftEdge">
+                         <AbsoluteDim value="0" />
+                     </Dim>
+                     <Dim type="TopEdge">
+                         <WidgetDim widget="__auto_titlebar__" dimension="Height" />
+                     </Dim>
+                     <Dim type="RightEdge">
+                         <UnifiedDim scale="1" type="RightEdge" />
+                     </Dim>
+                     <Dim type="BottomEdge">
+                         <UnifiedDim scale="1" type="BottomEdge" />
+                     </Dim>
+                 </Area>
+                 <Image type="BottomLeftCorner" imageset="ceguiWidget" image="frame2_bottomleft" />
+                 <Image type="BottomRightCorner" imageset="ceguiWidget" image="frame2_bottomright" />
+                 <Image type="LeftEdge" imageset="ceguiWidget" image="frame2_left" />
+                 <Image type="RightEdge" imageset="ceguiWidget" image="frame2_right" />
+                 <Image type="BottomEdge" imageset="ceguiWidget" image="frame2_bottomcenter" />
+             </FrameComponent>
+         </ImagerySection>
+         <ImagerySection name="notitle_frame">
+             <FrameComponent>
+                 <Area>
+                     <Dim type="LeftEdge">
+                         <AbsoluteDim value="0" />
+                     </Dim>
+                     <Dim type="TopEdge">
+                         <AbsoluteDim value="0" />
+                     </Dim>
+                     <Dim type="RightEdge">
+                         <UnifiedDim scale="1" type="RightEdge" />
+                     </Dim>
+                     <Dim type="BottomEdge">
+                         <UnifiedDim scale="1" type="BottomEdge" />
+                     </Dim>
+                 </Area>
+                 <Image type="TopLeftCorner" imageset="ceguiWidget" image="frame2_topleft" />
+                 <Image type="TopRightCorner" imageset="ceguiWidget" image="frame2_topright" />
+                 <Image type="BottomLeftCorner" imageset="ceguiWidget" image="frame2_bottomleft" />
+                 <Image type="BottomRightCorner" imageset="ceguiWidget" image="frame2_bottomright" />
+                 <Image type="LeftEdge" imageset="ceguiWidget" image="frame2_left" />
+                 <Image type="TopEdge" imageset="ceguiWidget" image="frame2_topcenter" />
+                 <Image type="RightEdge" imageset="ceguiWidget" image="frame2_right" />
+                 <Image type="BottomEdge" imageset="ceguiWidget" image="frame2_bottomcenter" />
+                <Image type="Background" imageset="ceguiWidget" image="frame2_center" />
+             </FrameComponent>
+         </ImagerySection>
+         <ImagerySection name="withtitle_withframe_client_area">
+             <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+             <ImageryComponent>
+                 <Area>
+                     <Dim type="LeftEdge">
+                         <ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" />
+                     </Dim>
+                     <Dim type="TopEdge">
+                         <WidgetDim widget="__auto_titlebar__" dimension="Height" />
+                     </Dim>
+                     <Dim type="RightEdge">
+                         <UnifiedDim scale="1" type="RightEdge">
+                             <DimOperator op="Subtract">
+                                 <ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+                             </DimOperator>
+                         </UnifiedDim>
+                     </Dim>
+                     <Dim type="BottomEdge">
+                         <UnifiedDim scale="1" type="BottomEdge">
+                             <DimOperator op="Subtract">
+                                 <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+                             </DimOperator>
+                         </UnifiedDim>
+                     </Dim>
+                 </Area>
+                 <Image imageset="ceguiWidget" image="frame2_center" />
+                 <VertFormat type="Stretched" />
+                 <HorzFormat type="Stretched" />
+             </ImageryComponent>
+         </ImagerySection>
+         <ImagerySection name="notitle_withframe_client_area">
+             <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+             <ImageryComponent>
+                 <Area>
+                     <Dim type="LeftEdge">
+                         <ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" />
+                     </Dim>
+                     <Dim type="TopEdge">
+                         <ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" />
+                     </Dim>
+                     <Dim type="RightEdge">
+                         <UnifiedDim scale="1" type="RightEdge">
+                             <DimOperator op="Subtract">
+                                 <ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+                             </DimOperator>
+                         </UnifiedDim>
+                     </Dim>
+                     <Dim type="BottomEdge">
+                         <UnifiedDim scale="1" type="BottomEdge">
+                             <DimOperator op="Subtract">
+                                 <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+                             </DimOperator>
+                         </UnifiedDim>
+                     </Dim>
+                 </Area>
+                 <Image imageset="ceguiWidget" image="frame2_center" />
+                 <VertFormat type="Stretched" />
+                 <HorzFormat type="Stretched" />
+             </ImageryComponent>
+         </ImagerySection>
+         <ImagerySection name="withtitle_noframe_client_area">
+             <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+             <ImageryComponent>
+                 <Area>
+                     <Dim type="LeftEdge">
+                         <AbsoluteDim value="0" />
+                     </Dim>
+                     <Dim type="TopEdge">
+                         <WidgetDim widget="__auto_titlebar__" dimension="Height" />
+                     </Dim>
+                     <Dim type="RightEdge">
+                         <UnifiedDim scale="1" type="RightEdge" />
+                     </Dim>
+                     <Dim type="BottomEdge">
+                         <UnifiedDim scale="1" type="BottomEdge" />
+                     </Dim>
+                 </Area>
+                 <Image imageset="ceguiWidget" image="frame2_center" />
+                 <VertFormat type="Stretched" />
+                 <HorzFormat type="Stretched" />
+             </ImageryComponent>
+         </ImagerySection>
+         <ImagerySection name="notitle_noframe_client_area">
+             <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+             <ImageryComponent>
+                 <Area>
+                     <Dim type="LeftEdge">
+                         <AbsoluteDim value="0" />
+                     </Dim>
+                     <Dim type="TopEdge">
+                         <AbsoluteDim value="0" />
+                     </Dim>
+                     <Dim type="RightEdge">
+                         <UnifiedDim scale="1" type="RightEdge" />
+                     </Dim>
+                     <Dim type="BottomEdge">
+                         <UnifiedDim scale="1" type="BottomEdge" />
+                     </Dim>
+                 </Area>
+                 <Image imageset="ceguiWidget" image="blank" />
+                 <VertFormat type="Stretched" />
+                 <HorzFormat type="Stretched" />
+             </ImageryComponent>
+         </ImagerySection>
+         <StateImagery name="ActiveWithTitleWithFrame">
+             <Layer>
+                 <Section section="withtitle_frame">
+             <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                 </Section>
+                 <Section section="withtitle_withframe_client_area" />
+             </Layer>
+         </StateImagery>
+         <StateImagery name="InactiveWithTitleWithFrame">
+             <Layer>
+                 <Section section="withtitle_frame">
+             <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                 </Section>
+                 <Section section="withtitle_withframe_client_area" />
+             </Layer>
+         </StateImagery>
+         <StateImagery name="DisabledWithTitleWithFrame">
+             <Layer>
+                 <Section section="withtitle_frame">
+             <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                 </Section>
+                 <Section section="withtitle_withframe_client_area" />
+             </Layer>
+         </StateImagery>
+         <StateImagery name="ActiveWithTitleNoFrame">
+             <Layer>
+                 <Section section="withtitle_noframe_client_area" />
+             </Layer>
+         </StateImagery>
+         <StateImagery name="InactiveWithTitleNoFrame">
+             <Layer>
+                 <Section section="withtitle_noframe_client_area" />
+             </Layer>
+         </StateImagery>
+         <StateImagery name="DisabledWithTitleNoFrame">
+             <Layer>
+                 <Section section="withtitle_noframe_client_area" />
+             </Layer>
+         </StateImagery>
+         <StateImagery name="ActiveNoTitleWithFrame">
+             <Layer>
+                 <Section section="notitle_frame">
+             <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                 </Section>
+                 <Section section="notitle_withframe_client_area" />
+             </Layer>
+         </StateImagery>
+         <StateImagery name="InactiveNoTitleWithFrame">
+             <Layer>
+                 <Section section="notitle_frame">
+             <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                 </Section>
+                 <Section section="notitle_withframe_client_area" />
+             </Layer>
+         </StateImagery>
+         <StateImagery name="DisabledNoTitleWithFrame">
+             <Layer>
+                 <Section section="notitle_frame">
+             <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                 </Section>
+                 <Section section="notitle_withframe_client_area" />
+             </Layer>
+         </StateImagery>
+         <StateImagery name="ActiveNoTitleNoFrame">
+             <Layer>
+                 <Section section="notitle_noframe_client_area" />
+             </Layer>
+         </StateImagery>
+         <StateImagery name="InactiveNoTitleNoFrame">
+             <Layer>
+                 <Section section="notitle_noframe_client_area" />
+             </Layer>
+         </StateImagery>
+         <StateImagery name="DisabledNoTitleNoFrame">
+             <Layer>
+                 <Section section="notitle_noframe_client_area" />
+             </Layer>
+         </StateImagery>
+     </WidgetLook>
+ 
+<!--
+    ***************************************************
+        ceguiWidget/Tooltip
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/Tooltip">
+        <NamedArea name="TextArea">
+            <Area>
+                <Dim type="LeftEdge" ><ImageDim imageset="ceguiWidget" image="tooltiptransparent_left_tweener" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="ceguiWidget" image="tooltiptransparent_top_tweener" dimension="Height" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="ceguiWidget" image="tooltiptransparent_right_tweener" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="ceguiWidget" image="tooltiptransparent_btm_tweener" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <ImagerySection name="main">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="20" /></Dim>
+                    <Dim type="TopEdge" ><UnifiedDim scale="-1" type="Height" /></Dim>
+
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+
+                </Area>
+                <Image type="TopLeftCorner" imageset="ceguiWidget" image="tooltiptransparent_topleft_corner" />
+                <Image type="TopRightCorner" imageset="ceguiWidget" image="tooltiptransparent_topright_corner" />
+                <Image type="BottomLeftCorner" imageset="ceguiWidget" image="tooltiptransparent_btmleft_corner" />
+                <Image type="BottomRightCorner" imageset="ceguiWidget" image="tooltiptransparent_btmright_corner" />
+                <Image type="LeftEdge" imageset="ceguiWidget" image="tooltiptransparent_left_tweener" />
+                <Image type="RightEdge" imageset="ceguiWidget" image="tooltiptransparent_right_tweener" />
+                <Image type="TopEdge" imageset="ceguiWidget" image="tooltiptransparent_top_tweener" />
+                <Image type="BottomEdge" imageset="ceguiWidget" image="tooltiptransparent_btm_tweener" />
+                <Image type="Background" imageset="ceguiWidget" image="tooltipbackground_black_transparent" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="label">
+            <TextComponent>
+                <Area>
+                    <Dim type="LeftEdge" >
+				<ImageDim imageset="ceguiWidget" image="tooltiptransparent_left_tweener" dimension="Width" />
+                            <DimOperator op="Add">
+                               <AbsoluteDim value="20" />
+                            </DimOperator>
+
+		    </Dim>
+                    <Dim type="TopEdge" >
+                            <DimOperator op="Add">
+                               <UnifiedDim scale="-1" type="Height" />
+                            </DimOperator>
+		    </Dim>
+                    <Dim type="RightEdge" >
+                        <UnifiedDim scale="1" type="RightEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="tooltiptransparent_right_tweener" dimension="Width" />
+                            </DimOperator>
+                            <DimOperator op="Add">
+                               <AbsoluteDim value="20" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="BottomEdge" >
+                        <UnifiedDim scale="1" type="BottomEdge">
+                            <DimOperator op="Subtract">
+                                <ImageDim imageset="ceguiWidget" image="tooltiptransparent_btm_tweener" dimension="Height" />
+                            </DimOperator>
+                            <DimOperator op="Add">
+                               <UnifiedDim scale="-1" type="Height" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                </Area>
+                <Colours topLeft="FFFFFFFF" topRight="FFFFFFFF" bottomLeft="FFFFFFFF" bottomRight="FFFFFFFF" />
+                <VertFormat type="CentreAligned" />
+                <HorzFormat type="CentreAligned" />
+   
+
+            </TextComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled" clipped = "false">
+            <Layer>
+                <Section section="main" />
+                <Section section="label" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled" clipped = "false">
+            <Layer>
+                <Section section="main" />
+                <Section section="label" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    <!--
+    ***************************************************
+        ceguiWidget/ItemText
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/ItemText">
+		<PropertyDefinition name="TextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />	
+	      <PropertyDefinition name="VertFormatting" initialValue="TopAligned" redrawOnWrite="true" /> 
+      	<PropertyDefinition name="HorzTextFormatting" initialValue="CentreAligned" redrawOnWrite="true" /> 
+	<PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+		<PropertyDefinition name="BackgroundColours" initialValue="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" redrawOnWrite="true" />
+		<Property name="WantsMultiClickEvents" value="False" /> 
+		<Property name="Font" value="Serif" />
+
+      <PropertyDefinition name="tabOrder" initialValue="" layoutOnWrite="true"/>
+      <PropertyDefinition name="tabOrderRow" initialValue="" layoutOnWrite="true"/>
+      <PropertyDefinition name="tabOrderColumn" initialValue="" layoutOnWrite="true"/>
+      <PropertyDefinition name="tabOrderGroupMatrix" initialValue="" layoutOnWrite="true"/>
+      <PropertyDefinition name="onClick" initialValue="" layoutOnWrite="true"/>
+
+      <!-- The Imagery sections. This specifies how a section is drawn. --> 
+      <!-- ************************************************************ --> 
+
+      <!-- This section draws the text and that's all. --> 
+      <ImagerySection name="label"> 
+         <TextComponent> 
+            <Area> 
+               <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim> 
+               <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim> 
+               <Dim type="Width"><UnifiedDim scale="1" type="Width" /></Dim> 
+               <Dim type="Height"><UnifiedDim scale="1" type="Height" /></Dim> 
+            </Area> 
+            <VertFormatProperty name="VertFormatting" /> 
+            <HorzFormatProperty name="HorzTextFormatting" /> 
+            
+
+            <ColourProperty name="TextColour" /> 
+   
+         </TextComponent> 
+      </ImagerySection> 
+
+      <!-- The Imagery states. This specifies what sections are drawn in wich state. --> 
+      <!-- ************************************************************************* --> 
+
+      <!-- Enabled --> 
+      <StateImagery name="Enabled" clipped="false"> 
+		  <Layer>
+                <Section look="ceguiWidget/StaticShared" section="itemframe" />
+            </Layer>
+         <Layer> 
+            <Section section="label"> 
+               <ColourProperty name="TextColour" /> 
+            </Section> 
+         </Layer> 
+
+      </StateImagery> 
+
+      <!-- Disabled --> 
+      <StateImagery name="Disabled" clipped="false"> 
+         <Layer> 
+            <Section section="label"> 
+               <ColourProperty name="TextColour" /> 
+            </Section> 
+         </Layer> 
+      </StateImagery> 
+    </WidgetLook>
+
+  <!--
+    ***************************************************
+        ceguiWidget/ItemText
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/ItemTextButton">
+		<PropertyDefinition name="TextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />	
+	      <PropertyDefinition name="VertFormatting" initialValue="TopAligned" redrawOnWrite="true" /> 
+      	<PropertyDefinition name="HorzTextFormatting" initialValue="CentreAligned" redrawOnWrite="true" /> 
+	<PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+		<PropertyDefinition name="BackgroundColours" initialValue="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" redrawOnWrite="true" />
+		<Property name="WantsMultiClickEvents" value="False" /> 
+		<Property name="Font" value="Serif" />
+	<PropertyDefinition name="NormalImage" initialValue="set:ceguiWidget image:button_x" redrawOnWrite="true" />
+        <PropertyDefinition name="VertImageFormatting" initialValue="Stretched" redrawOnWrite="true" />
+        <PropertyDefinition name="HorzImageFormatting" initialValue="Stretched" redrawOnWrite="true" />
+      <PropertyDefinition name="tabOrder" initialValue="" layoutOnWrite="true"/>
+      <PropertyDefinition name="tabOrderRow" initialValue="" layoutOnWrite="true"/>
+      <PropertyDefinition name="tabOrderColumn" initialValue="" layoutOnWrite="true"/>
+      <PropertyDefinition name="tabOrderGroupMatrix" initialValue="" layoutOnWrite="true"/>
+      <PropertyDefinition name="onClick" initialValue="" layoutOnWrite="true"/>
+
+      <!-- The Imagery sections. This specifies how a section is drawn. --> 
+      <!-- ************************************************************ --> 
+
+      <!-- This section draws the text and that's all. --> 
+      <ImagerySection name="label"> 
+         <TextComponent> 
+            <Area> 
+               <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim> 
+               <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim> 
+               <Dim type="Width"><UnifiedDim scale="1" type="Width" /></Dim> 
+               <Dim type="Height"><UnifiedDim scale="1" type="Height" /></Dim> 
+            </Area> 
+            <VertFormatProperty name="VertFormatting" /> 
+            <HorzFormatProperty name="HorzTextFormatting" /> 
+            
+
+            <ColourProperty name="TextColour" /> 
+   
+         </TextComponent> 
+      </ImagerySection> 
+        <ImagerySection name="Button">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="-20" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="2" /></Dim>
+                    <Dim type="Width" ><AbsoluteDim value="21" /></Dim>
+                    <Dim type="Height" ><AbsoluteDim value="21" /></Dim>
+
+                </Area>
+                <ImageProperty name="NormalImage" />
+                <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+
+
+      <!-- The Imagery states. This specifies what sections are drawn in wich state. --> 
+      <!-- ************************************************************************* --> 
+
+      <!-- Enabled --> 
+      <StateImagery name="Enabled" clipped="false"> 
+		  <Layer>
+                <Section look="ceguiWidget/StaticShared" section="frame" />
+            </Layer>
+         <Layer> 
+            <Section section="label"> 
+               <ColourProperty name="TextColour" /> 
+            </Section> 
+         </Layer> 
+
+         <Layer> 
+            <Section section="Button"> 
+            </Section> 
+         </Layer> 
+      </StateImagery> 
+
+      <!-- Disabled --> 
+      <StateImagery name="Disabled" clipped="false"> 
+		  <Layer>
+                <Section look="ceguiWidget/StaticShared" section="frame" />
+            </Layer>
+         <Layer> 
+            <Section section="label"> 
+               <ColourProperty name="TextColour" /> 
+            </Section> 
+         </Layer> 
+      </StateImagery> 
+    </WidgetLook>
+
+
+    <!--
+    ***************************************************
+        ceguiWidget/TooltipWrapper
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/TooltipWrapper">
+        <ImagerySection name="main">
+            <FrameComponent>
+		    <Area> 
+		       <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim> 
+		       <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim> 
+		       <Dim type="Width"><AbsoluteDim value="1" type="Width" /></Dim> 
+		       <Dim type="Height"><AbsoluteDim value="1" type="Height" /></Dim> 
+		    </Area> 
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="label">
+            <TextComponent>
+                <Area>
+		       <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim> 
+		       <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim> 
+		       <Dim type="Width"><AbsoluteDim value="0" type="Width" /></Dim> 
+		       <Dim type="Height"><AbsoluteDim value="0" type="Height" /></Dim> 
+                </Area>
+            </TextComponent>
+        </ImagerySection>        
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="main" />                
+                <Section section="label" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="main" />
+                <Section section="label" />
+            </Layer>
+        </StateImagery>
+    </WidgetLook>	
+<!--
+    ***************************************************
+        ceguiWidget/SliderThumb
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/SliderThumb">
+        <Property name="HorzFree" value="True" />
+        <Property name="WantsMultiClickEvents" value="False" />
+        <ImagerySection name="normal">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><UnifiedDim scale="0" type="LeftEdge" /></Dim>
+                    <Dim type="TopEdge" ><UnifiedDim scale="0" type="TopEdge"/></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="sliderbar_button" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="hover">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><UnifiedDim scale="0" type="LeftEdge" /></Dim>
+                    <Dim type="TopEdge" ><UnifiedDim scale="0" type="TopEdge"/></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="sliderbar_button_rollover" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Normal">
+            <Layer>
+                <Section section="normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Hover">
+            <Layer>
+                <Section section="hover" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Pushed">
+            <Layer>
+                <Section section="hover" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        ceguiWidget/Slider
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/Slider">
+        <Property name="VerticalSlider" value="False" />
+        <Property name="MouseButtonDownAutoRepeat" value="True" />
+        <Property name="WantsMultiClickEvents" value="False" />
+        <NamedArea name="ThumbTrackArea"  nameSuffix="__auto_thumbtrack__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1.0" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="ceguiWidget/SliderThumb" nameSuffix="__auto_thumb__" >
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" type="Width"/></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" type="Height"/></Dim>
+
+                <Dim type="Width" >
+			<UnifiedDim scale="1.0" type="BottomEdge" >
+                                 <DimOperator op="Multiply">
+		                             <AbsoluteDim value="1" />
+                                 </DimOperator>
+                     </UnifiedDim>
+			</Dim>
+                <Dim type="Height" >
+			<UnifiedDim scale="1.0" type="BottomEdge" >
+                                 <DimOperator op="Multiply">
+		                             <AbsoluteDim value="1" />
+                                 </DimOperator>
+                     </UnifiedDim>
+			</Dim>
+
+
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </Area>
+        </Child>
+        <ImagerySection name="main">
+
+            <ImageryComponent>
+                           <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" type="Width"/></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" type="Height"/></Dim>
+                <Dim type="Width" ><AbsoluteDim value="21" type="Width" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+
+            </Area>
+                <Image imageset="ceguiWidget" image="sliderbar_leftend" />
+			<VertFormat type="Stretched" />
+            </ImageryComponent>
+
+            <ImageryComponent>
+                           <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="21" type="Width"/></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" type="Height"/></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" type="Width" offset="-42" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+                <Image imageset="ceguiWidget" image="sliderbar_tweener" />
+			<HorzFormat type="Stretched" />
+			<VertFormat type="Stretched" />
+            </ImageryComponent>
+
+            <ImageryComponent>
+                           <Area>
+                <Dim type="LeftEdge" ><UnifiedDim scale="1.0" offset="-21" type="Width" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" type="Height"/></Dim>
+                <Dim type="Width" ><AbsoluteDim value="21" type="Width"/></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+            </Area>
+                <Image imageset="ceguiWidget" image="sliderbar_rightend" />
+			<VertFormat type="Stretched" />
+            </ImageryComponent>
+
+        </ImagerySection>
+        <StateImagery name="Enabled">
+            <Layer>
+                <Section section="main" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled">
+            <Layer>
+                <Section section="main">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+
+
+
+    <!--
+    ***************************************************
+        ceguiWidget/ComboDropList
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/ComboDropList">
+
+	<Property name="Font" Value="Arial" /> 
+        <NamedArea name="ItemRenderingArea">
+            <Area>
+                <Dim type="LeftEdge" ><ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ItemRenderingAreaHScroll">
+            <Area>
+                 <Dim type="LeftEdge" ><ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" /></Dim>
+
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <ImageDim imageset="ceguiWidget" image="frame2_right" dimension="Width" />
+
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ItemRenderingAreaVScroll">
+            <Area>
+                <Dim type="LeftEdge" ><ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" /></Dim>
+
+		<Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                        <ImageDim imageset="ceguiWidget" image="frame2_bottomcenter" dimension="Height" />
+
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <NamedArea name="ItemRenderingAreaHVScroll">
+            <Area>
+                 <Dim type="LeftEdge" ><ImageDim imageset="ceguiWidget" image="frame2_left" dimension="Width" /></Dim>
+                <Dim type="TopEdge" ><ImageDim imageset="ceguiWidget" image="frame2_topcenter" dimension="Height" /></Dim>
+
+
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_vscrollbar__" dimension="Width" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="BottomEdge" >
+                    <UnifiedDim scale="1" type="BottomEdge">
+                        <DimOperator op="Subtract">
+                            <WidgetDim widget="__auto_hscrollbar__" dimension="Height" />
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+            </Area>
+        </NamedArea>
+        <Child  type="ceguiWidget/HorizontalScrollbar" nameSuffix="__auto_hscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" offset="0" type="Width" /></Dim>
+                <Dim type="Height" ><AbsoluteDim value="25" /></Dim>
+            </Area>
+            <VertAlignment type="BottomAligned" />
+        </Child>
+        <Child  type="ceguiWidget/VerticalScrollbar" nameSuffix="__auto_vscrollbar__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" ><AbsoluteDim value="25" /></Dim>
+                <Dim type="Height" ><UnifiedDim scale="1" offset="0" type="Height" /></Dim>
+            </Area>
+            <HorzAlignment type="RightAligned" />
+        </Child>
+        <ImagerySection name="main">
+            <FrameComponent>
+		    <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="-6" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" >
+				    <DimOperator op="Add">
+                                <AbsoluteDim value="12" />
+                            </DimOperator>
+			  </UnifiedDim></Dim>
+ 			  <Dim type="Height" ><UnifiedDim scale="1" type="Height" >
+				    <DimOperator op="Add">
+                                <AbsoluteDim value="12" />
+                            </DimOperator>
+			  </UnifiedDim></Dim>
+                </Area>
+
+                <Image type="TopLeftCorner" imageset="ceguiWidget" image="tooltiptransparent_topleft_corner" />
+                <Image type="TopRightCorner" imageset="ceguiWidget" image="tooltiptransparent_topright_corner" />
+                <Image type="BottomLeftCorner" imageset="ceguiWidget" image="tooltiptransparent_btmleft_corner" />
+                <Image type="BottomRightCorner" imageset="ceguiWidget" image="tooltiptransparent_btmright_corner" />
+                <Image type="LeftEdge" imageset="ceguiWidget" image="tooltiptransparent_left_tweener" />
+                <Image type="RightEdge" imageset="ceguiWidget" image="tooltiptransparent_right_tweener" />
+                <Image type="TopEdge" imageset="ceguiWidget" image="tooltiptransparent_top_tweener" />
+                <Image type="BottomEdge" imageset="ceguiWidget" image="tooltiptransparent_btm_tweener" />
+                <Image type="Background" imageset="ceguiWidget" image="tooltipbackground_black_transparent" />
+            </FrameComponent>
+        </ImagerySection>
+        <StateImagery name="Enabled" clipped="false">
+            <Layer>
+                <Section section="main" />
+
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled" clipped="false">
+            <Layer>
+                <Section section="main">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        ceguiWidget/ComboEditbox
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/ComboEditbox">
+        <PropertyDefinition name="NormalTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="SelectedTextColour" initialValue="FF000000" redrawOnWrite="true" />
+        <PropertyDefinition name="ActiveSelectionColour" initialValue="FF607FFF" redrawOnWrite="true" />
+        <PropertyDefinition name="InactiveSelectionColour" initialValue="FF808080" redrawOnWrite="true" />
+	<Property name="Font" Value="Arial" /> 
+        <!--<Property name="MouseCursorImage" value="set:ceguiWidget image:mousetextbar" />-->
+        <NamedArea name="TextArea">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="10" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="5" /></Dim>
+                <Dim type="RightEdge" ><UnifiedDim scale="1.0" offset="-15" type="RightEdge" /></Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1.0" offset="-5" type="BottomEdge" /></Dim>
+            </Area>
+        </NamedArea>
+        <ImagerySection name="container_left">
+            <FrameComponent>
+                <Area>
+                <Dim type="LeftEdge" >
+			<UnifiedDim scale="1.0" type="BottomEdge" >
+                                 <DimOperator op="Multiply">
+		                             <AbsoluteDim value="-.50" />
+                                 </DimOperator>
+                     </UnifiedDim>
+			</Dim>
+
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge" ><AbsoluteDim value="0" /></Dim>
+	                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="Background" imageset="ceguiWidget" image="dropdown_window_leftend" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </FrameComponent>
+        </ImagerySection>
+        <ImagerySection name="container_normal">
+            <FrameComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+
+
+                <Dim type="Width" >
+			<UnifiedDim scale="1.0" type="Width" >
+                       <DimOperator op="Subtract">
+					<UnifiedDim scale="1.0" type="BottomEdge" >
+                                 <DimOperator op="Multiply">
+		                             <AbsoluteDim value="1.1" />
+                                 </DimOperator>
+		                  </UnifiedDim>
+				</DimOperator>
+                     </UnifiedDim>
+			</Dim>
+
+	                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="Background" imageset="ceguiWidget" image="dropdown_window_tweener" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </FrameComponent>
+		<FrameComponent>
+                <Area>
+ 		<Dim type="LeftEdge" >
+			<UnifiedDim scale="1.0" type="Width" >
+                       <DimOperator op="Subtract">
+					<UnifiedDim scale="1.0" type="BottomEdge" >
+                                 <DimOperator op="Multiply">
+		                             <AbsoluteDim value="1.1" />
+                                 </DimOperator>
+		                  </UnifiedDim>
+				</DimOperator>
+                     </UnifiedDim>
+			</Dim>
+
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="Width" >
+				<UnifiedDim scale="1.0" type="BottomEdge" >
+                                 <DimOperator op="Multiply">
+		                             <AbsoluteDim value="1.1" />
+                                 </DimOperator>
+	                     </UnifiedDim>
+			</Dim>
+
+
+	                <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <Image type="Background" imageset="ceguiWidget" image="dropdown_window_rightend" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </FrameComponent>
+
+        </ImagerySection>
+        <ImagerySection name="selection">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge" ><UnifiedDim scale="1.0" type="RightEdge" /></Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="frame2_bottomcenter_hover" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+        </ImagerySection>
+<ImagerySection name="Carat">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><ImageDim imageset="ceguiWidget" image="editboxcarat" dimension="Width" /></Dim>
+                    <Dim type="BottomEdge" ><UnifiedDim scale="1.0" type="BottomEdge" /></Dim>
+                </Area>
+                <Image imageset="ceguiWidget" image="editboxcarat" />
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+            </ImageryComponent>
+		</ImagerySection>
+
+        <StateImagery name="Enabled" clipped="false">
+            <Layer>
+                <Section section="container_left" />
+            </Layer>
+            <Layer>
+                <Section section="container_normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ReadOnly" clipped="false">
+            <Layer>
+                <Section section="container_left" />
+            </Layer>
+            <Layer>
+                <Section section="container_normal" />
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled" clipped="false">
+            <Layer>
+                <Section section="container_left" clipped="false">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+            <Layer>
+                <Section section="container_normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="ActiveSelection">
+            <Layer>
+                <Section section="selection">
+                    <ColourProperty name="ActiveSelectionColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="InactiveSelection">
+            <Layer>
+                <Section section="selection">
+                    <ColourProperty name="InactiveSelectionColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+    
+    <!--
+    ***************************************************
+        ceguiWidget/Combobox
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/Combobox">
+        <PropertyLinkDefinition name="NormalEditTextColour" widget="__auto_editbox__" targetProperty="NormalTextColour" initialValue="FFFFFFFF" />
+        <PropertyLinkDefinition name="SelectedEditTextColour" widget="__auto_editbox__" targetProperty="SelectedTextColour" initialValue="FF000000" />
+        <PropertyLinkDefinition name="ActiveEditSelectionColour" widget="__auto_editbox__" targetProperty="ActiveSelectionColour" initialValue="FF6060FF" />
+        <PropertyLinkDefinition name="InactiveEditSelectionColour" widget="__auto_editbox__" targetProperty="InactiveSelectionColour" initialValue="FF808080" />
+	<Property name="Font" Value="Arial" /> 
+
+        <Child  type="ceguiWidget/ComboEditbox" nameSuffix="__auto_editbox__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="RightEdge" >
+                    <UnifiedDim scale="1" type="RightEdge">
+                        <DimOperator op="Subtract">
+                            <FontDim type="LineSpacing">
+                                <DimOperator op="Multiply">
+                                    <AbsoluteDim value="1.8" />
+                                </DimOperator>
+                            </FontDim>
+                        </DimOperator>
+                    </UnifiedDim>
+                </Dim>
+                <Dim type="Height" >
+                    <FontDim type="LineSpacing">
+                        <DimOperator op="Multiply">
+                            <AbsoluteDim value="1.8" />
+                        </DimOperator>
+                    </FontDim>
+                </Dim>
+            </Area>
+        </Child>
+        <Child  type="ceguiWidget/ComboDropList" nameSuffix="__auto_droplist__">
+            <Area>
+                <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                <Dim type="TopEdge" ><WidgetDim widget="__auto_editbox__" dimension="BottomEdge" /></Dim>
+                <Dim type="Width" ><UnifiedDim scale="1" type="Width" offset="-43" /></Dim>
+                <Dim type="BottomEdge" ><UnifiedDim scale="1" type="BottomEdge" /></Dim>
+             <Property name="AlwaysOnTop" value="True" />
+            </Area>
+        </Child>
+        <Child  type="ceguiWidget/ImageButton" nameSuffix="__auto_button__">
+            <Area>
+                <Dim type="LeftEdge" >
+	<WidgetDim widget="__auto_editbox__" dimension="Height" >
+                                 <DimOperator op="Multiply">
+		                             <AbsoluteDim value="-1.2" />
+                                 </DimOperator>
+                     </WidgetDim>
+
+	</Dim>
+                <Dim type="TopEdge" ><AbsoluteDim value="6" Dimension="Height"/></Dim>
+                <Dim type="Width" >
+			<WidgetDim widget="__auto_editbox__" dimension="Height" >
+                                 <DimOperator op="Multiply">
+		                             <AbsoluteDim value=".6" />
+                                 </DimOperator>
+                     </WidgetDim>
+			</Dim>
+                <Dim type="Height" >
+			<WidgetDim widget="__auto_editbox__" dimension="Height" >
+                                 <DimOperator op="Multiply">
+		                             <AbsoluteDim value=".57" />
+                                 </DimOperator>
+                     </WidgetDim>
+			</Dim>
+
+            </Area>
+             <Property name="AlwaysOnTop" value="True" />
+		<Property name="clipped" value="false" />
+            <HorzAlignment type="RightAligned" />
+            <Property name="NormalImage" value="set:ceguiWidget image:dropdown_window_button" />
+            <Property name="HoverImage" value="set:ceguiWidget image:dropdown_window_button_rollover" />
+            <Property name="PushedImage" value="set:ceguiWidget image:dropdown_window_button_rollover" />
+
+                <VertFormat type="Stretched" />
+                <HorzFormat type="Stretched" />
+        </Child>
+        <StateImagery name="Enabled" />
+        <StateImagery name="Disabled" />
+    </WidgetLook>
+
+
+    <!--
+    ***************************************************
+        ceguiWidget/ItemTooltip
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/ItemTooltip">
+      <PropertyDefinition name="tabOrder" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="TextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />	
+	  <PropertyDefinition name="onClick" initialValue="" layoutOnWrite="true"/>
+	      <PropertyDefinition name="VertFormatting" initialValue="CentreAligned" redrawOnWrite="true" /> 
+      	<PropertyDefinition name="HorzTextFormatting" initialValue="LeftAligned" redrawOnWrite="true" /> 
+	<PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+		<PropertyDefinition name="BackgroundColours" initialValue="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" redrawOnWrite="true" />
+		<Property name="WantsMultiClickEvents" value="False" /> 
+		<Property name="Font" value="Serif" /> 
+
+
+<!-- The Imagery sections. This specifies how a section is drawn. --> 
+      <!-- ************************************************************ --> 
+
+      <!-- This section draws the text and that's all. --> 
+      <ImagerySection name="label"> 
+         <TextComponent> 
+            <Area> 
+               <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim> 
+               <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim> 
+               <Dim type="Width"><UnifiedDim scale="1" type="Width" /></Dim> 
+               <Dim type="Height"><UnifiedDim scale="1" type="Height" /></Dim> 
+            </Area> 
+            <VertFormatProperty name="VertFormatting" /> 
+            <HorzFormatProperty name="HorzTextFormatting" /> 
+            
+
+            <ColourProperty name="TextColour" /> 
+            
+         </TextComponent> 
+      </ImagerySection> 
+
+      <!-- The Imagery states. This specifies what sections are drawn in wich state. --> 
+      <!-- ************************************************************************* --> 
+
+      <!-- Enabled --> 
+      <StateImagery name="Enabled" clipped="false"> 
+		  <Layer>
+                <Section look="ceguiWidget/StaticShared" section="itemframe" />
+            </Layer>
+         <Layer> 
+            <Section section="label"> 
+               <ColourProperty name="TextColour" /> 
+            </Section> 
+         </Layer> 
+
+      </StateImagery> 
+
+      <!-- Disabled --> 
+      <StateImagery name="Disabled" clipped="false"> 
+         <Layer> 
+            <Section section="label"> 
+               <ColourProperty name="TextColour" /> 
+            </Section> 
+         </Layer> 
+      </StateImagery> 
+    </WidgetLook>
+
+    <!--
+    ***************************************************
+        ceguiWidget/LineFrame
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/LineFrame">
+      <PropertyDefinition name="tabOrder" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="TextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />	
+	  <PropertyDefinition name="onClick" initialValue="" layoutOnWrite="true"/>
+	      <PropertyDefinition name="VertFormatting" initialValue="CentreAligned" redrawOnWrite="true" /> 
+      	<PropertyDefinition name="HorzTextFormatting" initialValue="LeftAligned" redrawOnWrite="true" /> 
+	<PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+		<PropertyDefinition name="BackgroundColours" initialValue="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" redrawOnWrite="true" />
+		<Property name="WantsMultiClickEvents" value="False" /> 
+		<Property name="Font" value="Serif" /> 
+
+
+<!-- The Imagery sections. This specifies how a section is drawn. --> 
+      <!-- ************************************************************ --> 
+
+      <!-- This section draws the text and that's all. --> 
+      <ImagerySection name="label"> 
+         <TextComponent> 
+            <Area> 
+               <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim> 
+               <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim> 
+               <Dim type="Width"><UnifiedDim scale="1" type="Width" /></Dim> 
+               <Dim type="Height"><UnifiedDim scale="1" type="Height" /></Dim> 
+            </Area> 
+            <VertFormatProperty name="VertFormatting" /> 
+            <HorzFormatProperty name="HorzTextFormatting" /> 
+            
+
+            <ColourProperty name="TextColour" /> 
+            
+         </TextComponent> 
+      </ImagerySection> 
+
+      <!-- The Imagery states. This specifies what sections are drawn in wich state. --> 
+      <!-- ************************************************************************* --> 
+
+      <!-- Enabled --> 
+      <StateImagery name="Enabled" clipped="false"> 
+		  <Layer>
+                <Section look="ceguiWidget/StaticShared" section="frame1" />
+            </Layer>
+         <Layer> 
+            <Section section="label"> 
+               <ColourProperty name="TextColour" /> 
+            </Section> 
+         </Layer> 
+
+      </StateImagery> 
+
+      <!-- Disabled --> 
+      <StateImagery name="Disabled" clipped="false"> 
+         <Layer> 
+            <Section section="label"> 
+               <ColourProperty name="TextColour" /> 
+            </Section> 
+         </Layer> 
+      </StateImagery> 
+    </WidgetLook>
+
+
+    <!--
+    ***************************************************
+        ceguiWidget/ItemTooltip
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/ItemTooltip2">
+      <PropertyDefinition name="tabOrder" initialValue="" layoutOnWrite="true"/>
+	  <PropertyDefinition name="onClick" initialValue="" layoutOnWrite="true"/>
+		<PropertyDefinition name="TextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />	
+	      <PropertyDefinition name="VertFormatting" initialValue="CentreAligned" redrawOnWrite="true" /> 
+      	<PropertyDefinition name="HorzTextFormatting" initialValue="LeftAligned" redrawOnWrite="true" /> 
+	<PropertyDefinition name="FrameColours" initialValue="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" redrawOnWrite="true" />
+		<PropertyDefinition name="BackgroundColours" initialValue="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" redrawOnWrite="true" />
+		<Property name="WantsMultiClickEvents" value="False" /> 
+		<Property name="Font" value="Serif" /> 
+
+
+<!-- The Imagery sections. This specifies how a section is drawn. --> 
+      <!-- ************************************************************ --> 
+
+      <!-- This section draws the text and that's all. --> 
+      <ImagerySection name="label"> 
+         <TextComponent> 
+            <Area> 
+               <Dim type="LeftEdge"><AbsoluteDim value="0" /></Dim> 
+               <Dim type="TopEdge"><AbsoluteDim value="0" /></Dim> 
+               <Dim type="Width"><UnifiedDim scale="1" type="Width" /></Dim> 
+               <Dim type="Height"><UnifiedDim scale="1" type="Height" /></Dim> 
+            </Area> 
+            <VertFormatProperty name="VertFormatting" /> 
+            <HorzFormatProperty name="HorzTextFormatting" /> 
+            
+
+            <ColourProperty name="TextColour" /> 
+            
+         </TextComponent> 
+      </ImagerySection> 
+
+      <!-- The Imagery states. This specifies what sections are drawn in wich state. --> 
+      <!-- ************************************************************************* --> 
+
+      <!-- Enabled --> 
+      <StateImagery name="Enabled" clipped="false"> 
+		  <Layer>
+                <Section look="ceguiWidget/StaticShared" section="itemframe2" />
+            </Layer>
+         <Layer> 
+            <Section section="label"> 
+               <ColourProperty name="TextColour" /> 
+            </Section> 
+         </Layer> 
+
+      </StateImagery> 
+
+      <!-- Disabled --> 
+      <StateImagery name="Disabled" clipped="false"> 
+         <Layer> 
+            <Section section="label"> 
+               <ColourProperty name="TextColour" /> 
+            </Section> 
+         </Layer> 
+      </StateImagery> 
+    </WidgetLook>    
+
+
+    
+
+    <!--
+    ***************************************************
+        ceguiWidget/Checkbox
+    ***************************************************
+    -->
+    <WidgetLook name="ceguiWidget/Checkbox">
+		<PropertyDefinition name="NormalTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+	  <PropertyDefinition name="tabOrder" initialValue="" layoutOnWrite="true"/>
+	  <PropertyDefinition name="tabOrderRow" initialValue="" layoutOnWrite="true"/>
+	  <PropertyDefinition name="tabOrderColumn" initialValue="" layoutOnWrite="true"/>
+	  <PropertyDefinition name="tabOrderGroupMatrix" initialValue="" layoutOnWrite="true"/>
+        <PropertyDefinition name="HoverTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="PushedTextColour" initialValue="FFFFFFFF" redrawOnWrite="true" />
+        <PropertyDefinition name="DisabledTextColour" initialValue="FF7F7F7F" redrawOnWrite="true" />
+	<PropertyDefinition name="DropTextColour" initialValue="FF000000" redrawOnWrite="true" />	
+        <PropertyDefinition name="VertFormatting" initialValue="Stretched" redrawOnWrite="true" />
+        <PropertyDefinition name="HorzFormatting" initialValue="Stretched" redrawOnWrite="true" />
+        <Property name="BackgroundEnabled" value="False" />
+        <Property name="FrameEnabled" value="False" />
+        <Property name="RiseOnClick" value="False" />
+        <PropertyDefinition name="VertImageFormatting" initialValue="Stretched" redrawOnWrite="true" />
+        <PropertyDefinition name="HorzImageFormatting" initialValue="Stretched" redrawOnWrite="true" />
+<!--        <PropertyDefinition name="NormalImage" initialValue="set:widgets2 image:checkbox_off" redrawOnWrite="true" />
+        <PropertyDefinition name="HoverImage" initialValue="set:widgets2 image:checkbox_on" redrawOnWrite="true" />
+        <PropertyDefinition name="PushedImage" initialValue="set:widgets2 image:check" redrawOnWrite="true" />
+-->
+        <ImagerySection name="label">
+		<TextComponent>
+                <Area>
+			<Dim type="LeftEdge" >
+                        <UnifiedDim scale="1" type="Width" >
+                            <DimOperator op="Add">
+                                <AbsoluteDim value="5" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" />
+				 <DimOperator op="Add">
+                                <AbsoluteDim value="2" />
+                            </DimOperator>
+			</Dim>                    
+			  <Dim type="RightEdge" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+
+                </Area>
+                  <VertFormat type="CentreAligned" />
+                	<HorzFormat type="LeftAligned" />
+            	<ColourProperty name="DropTextColour" />
+            </TextComponent>
+            <TextComponent>
+                <Area>
+                    <Dim type="LeftEdge" >
+                        <UnifiedDim scale="1" type="Width" >
+                            <DimOperator op="Add">
+                                <AbsoluteDim value="5" />
+                            </DimOperator>
+                        </UnifiedDim>
+                    </Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="RightEdge" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+                </Area>
+                <VertFormat type="CentreAligned" />
+                <HorzFormat type="LeftAligned" />
+            </TextComponent>
+        </ImagerySection>
+
+        <ImagerySection name="normal">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+
+                </Area>
+                <ImageProperty name="NormalImage" />
+                <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="hover">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+
+                </Area>
+                <ImageProperty name="HoverImage" />
+                   <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <ImagerySection name="select_mark">
+            <ImageryComponent>
+                <Area>
+                    <Dim type="LeftEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="TopEdge" ><AbsoluteDim value="0" /></Dim>
+                    <Dim type="Width" ><UnifiedDim scale="1" type="Width" /></Dim>
+                    <Dim type="Height" ><UnifiedDim scale="1" type="Height" /></Dim>
+
+                </Area>
+                <ImageProperty name="PushedImage" />
+                <VertFormatProperty name="VertImageFormatting" />
+                <HorzFormatProperty name="HorzImageFormatting" />
+            </ImageryComponent>
+        </ImagerySection>
+        <StateImagery name="Normal" clipped="false">
+            <Layer>
+                <Section section="normal" />
+                <Section section="label">
+                    <ColourProperty name="NormalTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Hover" clipped="false">
+            <Layer>
+                <Section section="hover" />
+                <Section section="label">
+                    <ColourProperty name="HoverTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="Disabled" clipped="false">
+            <Layer>
+                <Section section="normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+                <Section section="label">
+                    <ColourProperty name="DisabledTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="SelectedNormal" clipped="false">
+            <Layer>
+                <Section section="normal" />
+                <Section section="select_mark" />
+                <Section section="label">
+                    <ColourProperty name="NormalTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="SelectedHover" clipped="false">
+            <Layer>
+                <Section section="hover" />
+                <Section section="select_mark" />
+                <Section section="label">
+                    <ColourProperty name="HoverTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+        <StateImagery name="SelectedDisabled" clipped="false">
+            <Layer>
+                <Section section="normal">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+                <Section section="select_mark">
+                    <Colours topLeft="FF7F7F7F" topRight="FF7F7F7F" bottomLeft="FF7F7F7F" bottomRight="FF7F7F7F" />
+                </Section>
+                <Section section="label">
+                    <ColourProperty name="DisabledTextColour" />
+                </Section>
+            </Layer>
+        </StateImagery>
+    </WidgetLook>
+</Falagard>
