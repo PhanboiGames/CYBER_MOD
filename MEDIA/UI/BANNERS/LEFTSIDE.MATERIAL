@@ -1,0 +1,20 @@
+material 13_-_Default
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 0 0 0
+			scene_blend alpha_blend
+			depth_write false
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture null.dds
+			}
+		}
+	}
+}
