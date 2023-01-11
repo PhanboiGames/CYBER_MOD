@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name= "CYBER_INV_TABS_SET" Imagefile="media/ui/hud/CYBER_INV_TABS_SET.dds" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+	<Image Name="INV-GEAR-HOVER" XPos="0" YPos="0" Width="243" Height="131" />
+	<Image Name="INV-CONS-HOVER" XPos="242" YPos="0" Width="302" Height="133" />
+	<Image Name="INV-BBACK-HOVER" XPos="543" YPos="0" Width="305" Height="133" />
+	<Image Name="INV-AUGS-HOVER" XPos="847" YPos="0" Width="249" Height="133" />	
+	<Image Name="INV-GEAR-UNSELECTED" XPos="0" YPos="132" Width="243" Height="131" />
+	<Image Name="INV-CONS-UNSELECTED" XPos="241" YPos="132" Width="304" Height="136" />
+	<Image Name="INV-BBACK-UNSELECTED" XPos="544" YPos="134" Width="301" Height="136" />
+	<Image Name="INV-AUGS-UNSELECTED" XPos="850" YPos="135" Width="246" Height="139" />	
+	<Image Name="INV-GEAR-SELECTED" XPos="0" YPos="267" Width="243" Height="139" />
+	<Image Name="INV-CONS-SELECTED" XPos="243" YPos="271" Width="302" Height="142" />
+	<Image Name="INV-BBACK-SELECTED" XPos="546" YPos="272" Width="306" Height="138" />
+	<Image Name="INV-AUGS-SELECTED" XPos="850" YPos="274" Width="246" Height="136" />
+</Imageset>
