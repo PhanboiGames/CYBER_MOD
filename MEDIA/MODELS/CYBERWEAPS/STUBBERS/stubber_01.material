@@ -1,0 +1,17 @@
+material 01 - Default
+{
+        technique
+        {
+                pass
+                {
+                        ambient 1.000000 1.000000 1.000000
+                        diffuse 0.588235 0.588235 0.588235
+                        specular 0.898039 0.898039 0.898039 0
+                        emissive 0.000000 0.000000 0.000000
+                        texture_unit
+                        {
+                                texture GLOCK18C.dds
+                        }
+                }
+        }
+}

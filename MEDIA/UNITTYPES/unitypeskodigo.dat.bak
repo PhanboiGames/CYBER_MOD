@@ -1,0 +1,57 @@
+		[NORMAL RIFLE]
+			<INTEGER>ID:117
+			<STRING>NAME:Normal Rifle
+			<INTEGER>CHILD:116 {Rifle}
+			<INTEGER>CHILD1:35 {Ranged Weapon}
+			<INTEGER>CHILD2:8 {Weapon}
+			<INTEGER>CHILD3:31 {Takeable}
+			<INTEGER>CHILD4:2 {Item}
+			<INTEGER>CHILD5:0 {any}
+			<INTEGER>CHILD3:258 {Equippable}
+			<INTEGER>CHILD1:37 {Right Handed}
+			<INTEGER>CHILD1:10 {Two Handed}
+			<INTEGER>CHILD1:163 {ItemCategoryRanged}
+		[/NORMAL RIFLE]
+
+		[NORMAL PISTOL]
+			<INTEGER>ID:95
+			<STRING>NAME:Normal Pistol
+			<INTEGER>CHILD:90 {Pistol}
+			<INTEGER>CHILD1:9 {One Handed}
+			<INTEGER>CHILD1:35 {Ranged Weapon}
+			<INTEGER>CHILD2:8 {Weapon}
+			<INTEGER>CHILD3:31 {Takeable}
+			<INTEGER>CHILD4:2 (Item}
+			<INTEGER>CHILD5:0 {any}
+			<INTEGER>CHILD3:258 {Equippable}
+			<INTEGER>CHILD1:163 {ItemCategoryRanged}
+		[/NORMAL PISTOL]
+
+		[CANNON]
+			<INTEGER>ID:188
+			<STRING>NAME:Cannon
+			<INTEGER>CHILD:10 {Two Handed}
+			<INTEGER>CHILD:35 {Ranged Weapon}
+			<INTEGER>CHILD1:8 {Weapon}
+			<INTEGER>CHILD2:31 {Takeable}
+			<INTEGER>CHILD3:2 {Item}
+			<INTEGER>CHILD4:0 {any}
+			<INTEGER>CHILD2:258 {Equippable}
+			<INTEGER>CHILD:163 {ItemCategoryRanged}
+			<INTEGER>CHILD:38 {Left Handed}
+		[/CANNON]
+
+		[NORMAL CANNON]
+			<INTEGER>ID:200
+			<STRING>NAME:Normal Cannon
+			<INTEGER>CHILD:188 {Cannon}
+			<INTEGER>CHILD1:10 {Two Handed}
+			<INTEGER>CHILD1:35 {Ranged Weapon}
+			<INTEGER>CHILD2:8 {Weapon}
+			<INTEGER>CHILD3:31 {Takeable}
+			<INTEGER>CHILD4:2 {Item}
+			<INTEGER>CHILD5:0 {any}
+			<INTEGER>CHILD3:258 {Equippable}
+			<INTEGER>CHILD1:163 {ItemCategoryRanged}
+			<INTEGER>CHILD1:38 {Left Handed}
+		[/NORMAL CANNON]
