@@ -157,3 +157,190 @@ material tank_mat
 		}
 	}
 }
+material ahunit_01
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture ahunit_01.dds
+			}
+		}
+	}
+}
+material shortduct
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture shortduct.dds
+			}
+		}
+	}
+}
+material BIGTANK02
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture bigtank_02.dds
+			}
+		}
+	}
+}
+material BIGPIPECOUPLING
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture big-pipe-coupling.dds
+			}
+		}
+	}
+}
+material bentpipecoupling
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture bent-pipe-coupling.dds
+			}
+		}
+	}
+}
+material walkway
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture walkway_01.dds
+			}
+		}
+	}
+}
+material walkway_juntion
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture walkway_01.dds
+			}
+		}
+	}
+}
+material ind_bldg_wall_blank
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture ind_wall_blank.dds
+			}
+		}
+	}
+}
+material ind_wall_open
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture ind_wall_open.dds
+			}
+		}
+	}
+}
+material metalshutters
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture metal_shutters.dds
+			}
+		}
+	}
+}
+material exterior_floor03
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture external_floor03.dds
+			}
+		}
+	}
+}
