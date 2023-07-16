@@ -739,3 +739,140 @@ material garbagetruckmat
 		}
 	}
 }
+material warehouse_body
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture warehousebody.dds
+			}
+		}
+	}
+}
+material buttressed_wall2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture buttressed_wall2.dds
+			}
+		}
+	}
+}
+material BUTTRESS_2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture buttress2.dds
+			}
+		}
+	}
+}
+material buttressed_gate
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture buttressed_gate.dds
+			}
+		}
+	}
+}
+material 
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture .dds
+			}
+		}
+	}
+}
+material buttguardhouse
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture buttguardhouse.dds
+			}
+		}
+	}
+}
+material concrete_slab
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture concrete_slab.dds
+			}
+		}
+	}
+}
+material forklift
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture forklift.dds
+			}
+		}
+	}
+}
+z
