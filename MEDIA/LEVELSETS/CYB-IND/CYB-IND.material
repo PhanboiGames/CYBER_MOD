@@ -1,3 +1,20 @@
+material road3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture road3c.dds
+			}
+		}
+	}
+}
 material roadsectionfade
 {
 	technique
@@ -7,12 +24,10 @@ material roadsectionfade
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
-			scene_blend alpha_blend
-			alpha_rejection greater 5
+			emissive 0 0 0
 			texture_unit
 			{
-				texture asphalt6.dds
+				texture road3-2.dds
 			}
 		}
 	}
@@ -26,7 +41,7 @@ material curb-indiustrial-block-01
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture curbs-industrial-2.dds
@@ -43,7 +58,7 @@ material curb-ind-corner-01
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture curbs-industrial-2.dds
@@ -60,7 +75,7 @@ material CHAINLINK
 			ambient 0.588235 0.588235 0.588235
 			diffuse 0.588235 0.588235 0.588235
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			scene_blend alpha_blend
 			alpha_rejection greater 120
 			texture_unit
@@ -79,7 +94,7 @@ material chainlinkpost
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture fenceposts.dds
@@ -96,7 +111,7 @@ material dirt-field-01
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			scene_blend alpha_blend
 			alpha_rejection greater 5
 			texture_unit
@@ -115,7 +130,7 @@ material duct-block
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture duct-curve.dds
@@ -132,7 +147,7 @@ material duct-curve
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture duct-curve.dds
@@ -149,7 +164,7 @@ material tank_mat
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture tank-green-all.dds
@@ -166,7 +181,7 @@ material ahunit_01
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture ahunit_01.dds
@@ -183,7 +198,7 @@ material shortduct
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture shortduct.dds
@@ -200,7 +215,7 @@ material BIGTANK02
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture bigtank_02.dds
@@ -217,7 +232,7 @@ material BIGPIPECOUPLING
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture big-pipe-coupling.dds
@@ -234,7 +249,7 @@ material bentpipecoupling
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture bent-pipe-coupling.dds
@@ -251,7 +266,7 @@ material walkway
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture walkway_01.dds
@@ -268,7 +283,7 @@ material walkway_juntion
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture walkway_01.dds
@@ -285,7 +300,7 @@ material ind_bldg_wall_blank
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture ind_wall_blank.dds
@@ -302,7 +317,7 @@ material ind_wall_open
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture ind_wall_open.dds
@@ -319,7 +334,7 @@ material metalshutters
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture metal_shutters.dds
@@ -336,7 +351,7 @@ material exterior_floor03
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture external_floor03.dds
@@ -353,7 +368,7 @@ material CABLETRAY01
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			scene_blend alpha_blend
 			alpha_rejection greater 5
 			texture_unit
@@ -372,7 +387,7 @@ material PIPE_SECTION_LONG
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture big-pipe-coupling.DDS
@@ -389,7 +404,7 @@ material PIPE_SECTION_SHORT
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture big-pipe-coupling.DDS
@@ -406,7 +421,7 @@ material CATWALK01
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture walkway_01.DDS
@@ -423,7 +438,7 @@ material walkway_junction
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture walkway_01.DDS
@@ -440,7 +455,7 @@ material cellular-mast
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture cellular-antenna.DDS
@@ -457,7 +472,7 @@ material cellular-antenna
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture cellular-antenna.DDS
@@ -474,7 +489,7 @@ material microwave_antenna
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture microwave_antenna.DDS
@@ -491,7 +506,7 @@ material buttressed_wall_single
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture buttressed_wall_01.DDS
@@ -508,7 +523,7 @@ material buttress_corner
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture buttressed_wall_01.DDS
@@ -525,7 +540,7 @@ material buttressed-dbl-wall
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			scene_blend alpha_blend
 			alpha_rejection greater 120
 			texture_unit
@@ -544,7 +559,7 @@ material oil_drum
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture EXPLOSIVE_BARRELS.DDS
@@ -561,7 +576,7 @@ material oil_drum_blue
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture blue_barrell.DDS
@@ -578,7 +593,7 @@ material trashcan2
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture trashcan2.DDS
@@ -595,7 +610,7 @@ material PALLET_MAT
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture PALLET.DDS
@@ -612,7 +627,7 @@ material GARBAGEBAG2
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture garbag2.DDS
@@ -629,7 +644,7 @@ material old_tire2
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture old_tire.DDS
@@ -646,7 +661,7 @@ material CBOX1_MAT
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture cardboardboxes.DDS
@@ -663,7 +678,7 @@ material CBOX2_MAT
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture cardboardboxes.DDS
@@ -680,7 +695,7 @@ material container_van
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture container_van.dds
@@ -697,7 +712,7 @@ material woodenspool
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture woodspoolplanks.dds
@@ -714,7 +729,7 @@ material bigrustypipe
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture bigrustypipe.dds
@@ -731,7 +746,7 @@ material garbagetruckmat
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture garbagetruck_yellow.dds
@@ -748,7 +763,7 @@ material warehouse_body
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture warehousebody.dds
@@ -765,7 +780,7 @@ material buttressed_wall2
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture buttressed_wall2.dds
@@ -782,7 +797,7 @@ material BUTTRESS_2
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture buttress2.dds
@@ -799,7 +814,7 @@ material buttressed_gate
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture buttressed_gate.dds
@@ -816,7 +831,7 @@ material
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture .dds
@@ -833,7 +848,7 @@ material buttguardhouse
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture buttguardhouse.dds
@@ -850,7 +865,7 @@ material concrete_slab
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture concrete_slab.dds
@@ -867,7 +882,7 @@ material forklift
 			ambient 0.588 0.588 0.588
 			diffuse 0.588 0.588 0.588
 			specular 0 0 0 0
-			emissive 0.4 0.4 0.4
+			emissive 0 0 0
 			texture_unit
 			{
 				texture forklift.dds
@@ -875,4 +890,3 @@ material forklift
 		}
 	}
 }
-z
