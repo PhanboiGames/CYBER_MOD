@@ -4,7 +4,8 @@ A cyberpunk ARPG total conversion mod for Torchlight 2
 ## What is this project?
 This mod will totally convert Torchlight 2 into a cyberpunk ARPG!
 Here's a youtube playlist where I'll be posting videos of any noteworthy builds of the game...
-https://www.youtube.com/playlist?list=PL2Q48UQDGsUFx9VII4ViXF-id74qoZdXT
+https://www.youtube.com/playlist?list=PL2Q48UQDGsUFx9VII4ViXF-id74qoZdXT.
+I also blog about it here: https://mastodon.gamedev.place/@phanjam
 
 ## Who is to blame for this project?
 I'm phanjam. I've been modding the Torchlight games since they started back in 2009.
