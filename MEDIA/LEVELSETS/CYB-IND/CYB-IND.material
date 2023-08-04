@@ -4,13 +4,13 @@ material road3
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
-				texture road3c.dds
+				texture road4.dds
 			}
 		}
 	}
@@ -21,9 +21,9 @@ material roadsectionfade
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -38,9 +38,9 @@ material curb-indiustrial-block-01
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -55,9 +55,9 @@ material curb-ind-corner-01
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -74,7 +74,7 @@ material CHAINLINK
 		{
 			ambient 0.588235 0.588235 0.588235
 			diffuse 0.588235 0.588235 0.588235
-			specular 0 0 0 0
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			scene_blend alpha_blend
 			alpha_rejection greater 120
@@ -91,9 +91,9 @@ material chainlinkpost
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -108,9 +108,9 @@ material dirt-field-01
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			scene_blend alpha_blend
 			alpha_rejection greater 5
@@ -127,9 +127,9 @@ material duct-block
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -144,9 +144,9 @@ material duct-curve
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -161,9 +161,9 @@ material tank_mat
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -178,9 +178,9 @@ material ahunit_01
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -195,9 +195,9 @@ material shortduct
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -212,9 +212,9 @@ material BIGTANK02
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -229,9 +229,9 @@ material BIGPIPECOUPLING
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -246,9 +246,9 @@ material bentpipecoupling
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -263,9 +263,9 @@ material walkway
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -280,9 +280,9 @@ material walkway_juntion
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -297,9 +297,9 @@ material ind_bldg_wall_blank
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -314,9 +314,9 @@ material ind_wall_open
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -331,9 +331,9 @@ material metalshutters
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -348,9 +348,9 @@ material exterior_floor03
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -365,9 +365,9 @@ material CABLETRAY01
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			scene_blend alpha_blend
 			alpha_rejection greater 5
@@ -384,9 +384,9 @@ material PIPE_SECTION_LONG
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -401,9 +401,9 @@ material PIPE_SECTION_SHORT
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -418,9 +418,9 @@ material CATWALK01
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -435,9 +435,9 @@ material walkway_junction
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -452,9 +452,9 @@ material cellular-mast
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -469,9 +469,9 @@ material cellular-antenna
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -486,9 +486,9 @@ material microwave_antenna
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -503,9 +503,9 @@ material buttressed_wall_single
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -520,9 +520,9 @@ material buttress_corner
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -537,9 +537,9 @@ material buttressed-dbl-wall
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			scene_blend alpha_blend
 			alpha_rejection greater 120
@@ -556,9 +556,9 @@ material oil_drum
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -573,9 +573,9 @@ material oil_drum_blue
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -590,9 +590,9 @@ material trashcan2
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -607,9 +607,9 @@ material PALLET_MAT
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -624,9 +624,9 @@ material GARBAGEBAG2
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -641,9 +641,9 @@ material old_tire2
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -658,9 +658,9 @@ material CBOX1_MAT
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -675,9 +675,9 @@ material CBOX2_MAT
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -692,9 +692,9 @@ material container_van
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -709,9 +709,9 @@ material woodenspool
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -726,9 +726,9 @@ material bigrustypipe
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -743,9 +743,9 @@ material garbagetruckmat
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -760,9 +760,9 @@ material warehouse_body
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -777,9 +777,9 @@ material buttressed_wall2
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -794,9 +794,9 @@ material BUTTRESS_2
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -811,9 +811,9 @@ material buttressed_gate
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -828,9 +828,9 @@ material
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -845,9 +845,9 @@ material buttguardhouse
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -862,9 +862,9 @@ material concrete_slab
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
@@ -879,13 +879,149 @@ material forklift
 	{
 		pass
 		{
-			ambient 0.588 0.588 0.588
-			diffuse 0.588 0.588 0.588
-			specular 0 0 0 0
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
 			emissive 0 0 0
 			texture_unit
 			{
 				texture forklift.dds
+			}
+		}
+	}
+}
+material curb3_block1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
+			emissive 0 0 0
+			texture_unit
+			{
+				texture curb3_mater.dds
+			}
+		}
+	}
+}
+material curb3_block2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
+			emissive 0 0 0
+			texture_unit
+			{
+				texture curb3_mater.dds
+			}
+		}
+	}
+}
+material curb3_blcok3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
+			emissive 0 0 0
+			texture_unit
+			{
+				texture curb3_mater.dds
+			}
+		}
+	}
+}
+material curb3_block4
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
+			emissive 0 0 0
+			texture_unit
+			{
+				texture curb3_mater.dds
+			}
+		}
+	}
+}
+material curb3_corner1
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
+			emissive 0 0 0
+			texture_unit
+			{
+				texture curb3_mater.dds
+			}
+		}
+	}
+}
+material curb3_corner2
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
+			emissive 0 0 0
+			texture_unit
+			{
+				texture curb3_mater.dds
+			}
+		}
+	}
+}
+material curb3_corner3
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
+			emissive 0 0 0
+			texture_unit
+			{
+				texture curb3_mater.dds
+			}
+		}
+	}
+}
+material curb3_corner4
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
+			emissive 0 0 0
+			texture_unit
+			{
+				texture curb3_mater.dds
 			}
 		}
 	}
