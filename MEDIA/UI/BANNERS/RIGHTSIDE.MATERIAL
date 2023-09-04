@@ -1,4 +1,4 @@
-material base/base
+material RIGHTBLACKBANNER
 {
 	technique
 	{
@@ -8,13 +8,9 @@ material base/base
 			diffuse 0.588235 0.588235 0.588235
 			specular 0 0 0 0
 			emissive 1 1 1
-			depth_write off
-			lighting off
-			scene_blend alpha_blend
-			alpha_rejection greater 5
 			texture_unit
 			{
-				texture null.dds
+				texture GUI7_MAIN_BKGD2.dds
 			}
 		}
 	}

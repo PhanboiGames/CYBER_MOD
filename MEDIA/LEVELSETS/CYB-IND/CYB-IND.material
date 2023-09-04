@@ -1026,3 +1026,174 @@ material curb3_corner4
 		}
 	}
 }
+material bldg3/metalbrace
+{
+    technique
+    {
+        pass
+        {
+ 			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
+			emissive 0 0 0
+            texture_unit
+            {
+                texture bldg3-metalbrace.dds
+            }
+        }
+    }
+}
+material bldg3/stall
+{
+    technique
+    {
+        pass
+        {
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
+			emissive 0 0 0
+            texture_unit
+            {
+                texture bldg3-innerstall.dds
+            }
+        }
+    }
+}
+material bldg3/superstructure
+{
+    technique
+    {
+        pass
+        {
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
+			emissive 0 0 0
+            texture_unit
+            {
+                texture bldg3_superstructure.dds
+            }
+        }
+    }
+}
+material Material.003
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.000000 1.000000 1.000000
+            diffuse 0.147314 0.147314 0.147314
+            specular 1.000000 1.000000 1.000000 0
+            emissive 0.000000 0.000000 0.000000
+        }
+    }
+}
+material Material.002
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.000000 1.000000 1.000000
+            diffuse 0.054969 0.054969 0.054969
+            specular 1.000000 1.000000 1.000000 0
+            emissive 0.000000 0.000000 0.000000
+        }
+    }
+}
+material Material.013
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.000000 1.000000 1.000000
+            diffuse 0.045907 0.094624 0.058832
+            specular 1.000000 1.000000 1.000000 0
+            emissive 0.000000 0.000000 0.000000
+        }
+    }
+}
+material Material.006
+{
+    technique
+    {
+        pass
+        {
+            ambient 1.000000 1.000000 1.000000
+            diffuse 0.318539 0.318539 0.318539
+            specular 1.000000 1.000000 1.000000 0
+            emissive 0.000000 0.000000 0.000000
+        }
+    }
+}
+material dumpster/body
+{
+    technique
+    {
+        pass
+        {
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
+			emissive 0 0 0
+            texture_unit
+            {
+                texture dumpster_body.dds
+            }
+        }
+    }
+}
+material dumpster/cover
+{
+    technique
+    {
+        pass
+        {
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
+			emissive 0 0 0
+            texture_unit
+            {
+                texture dumpster_cover.dds
+            }
+        }
+    }
+}
+material dumpster3
+{
+    technique
+    {
+        pass
+        {
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
+			emissive 0 0 0
+            texture_unit
+            {
+                texture dumpster_body.dds
+            }
+        }
+    }
+}
+material subway_test
+{
+    technique
+    {
+        pass
+        {
+			ambient 0.3 0.3 0.3
+			diffuse 0.3 0.3 0.3
+			specular 0.3 0.3 0.3
+			emissive 0 0 0
+            texture_unit
+            {
+                texture justgray.dds
+            }
+        }
+    }
+}

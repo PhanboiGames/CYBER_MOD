@@ -873,4 +873,20 @@ material forklift
 		}
 	}
 }
-z
+material subway_test
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0.4 0.4 0.4
+			texture_unit
+			{
+				texture justgray.dds
+			}
+		}
+	}
+}
