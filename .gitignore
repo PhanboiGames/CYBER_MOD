@@ -4,3 +4,5 @@
 *.MPP
 *.BINDAT
 *.BINLAYOUT
+*.BLEN*
+*.XCF
