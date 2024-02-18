@@ -1,3 +1,6 @@
+TL2 Cyber TC Mod
+Dev Notes
+================
 <2024>
 	<Feb>
 		objectives:
@@ -6,22 +9,22 @@
 			challenging mob units with drops
 			a working parent dungeon
 		progress:
-			player
-				unit .DAT <!-- TESTING -->
+			&player
+				unit .DAT <!-- TESTING - under test until fully developed --> 
 				stubber pistol <!-- DONE -->
 				custom model (will help keep the mood :P )
-			mob:ninja
+			&mob:ninja
 				custom ninja model <!-- DONE -->
-				needs some more 2HSword anims to replace vanilla ones
+				needs some more 2HSword anims to replace vanilla ones <!-- DONE -->
 				needs skills
 					backflip shuriken
 					sidestep
 					lunge attack
 				katana drop
 				stimvial drop
-			mob:drone
+			&mob:drone
 				fan blade particle <!-- DONE -->
-				drone body model & texture
+				drone body model and texture
 	</Feb>		
 </2024>
 

@@ -1,0 +1,38 @@
+<skeleton>
+    <bones>
+        <bone id="0" name="bone02">
+            <position x="-4.66816e-008" y="-0.0679508" z="0" />
+            <rotation angle="0">
+                <axis x="1" y="0" z="0" />
+            </rotation>
+        </bone>
+        <bone id="1" name="bone1">
+            <position x="-5.07411e-010" y="-0.0116083" z="2.36711" />
+            <rotation angle="0">
+                <axis x="1" y="0" z="0" />
+            </rotation>
+        </bone>
+        <bone id="2" name="root">
+            <position x="-7.27596e-010" y="0.000284433" z="-3.42261e-009" />
+            <rotation angle="1.5708">
+                <axis x="-1" y="-0" z="-0" />
+            </rotation>
+        </bone>
+        <bone id="3" name="tag_righthand">
+            <position x="0.0169201" y="-0.244908" z="0.0512646" />
+            <rotation angle="4.18879">
+                <axis x="-0.57735" y="0.57735" z="0.57735" />
+            </rotation>
+        </bone>
+    </bones>
+    <bonehierarchy>
+        <boneparent bone="bone02" parent="bone1" />
+        <boneparent bone="bone1" parent="root" />
+        <boneparent bone="tag_righthand" parent="bone02" />
+    </bonehierarchy>
+    <animations>
+        <animation name="bind" length="0">
+            <tracks />
+        </animation>
+    </animations>
+</skeleton>
