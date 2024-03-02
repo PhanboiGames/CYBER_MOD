@@ -2,29 +2,35 @@ TL2 Cyber TC Mod
 Dev Notes
 ================
 <2024>
-	<Feb>
-		objectives:
-			a working player model with basic gear
-			a working mission dungeon
-			challenging mob units with drops
-			a working parent dungeon
-		progress:
-			&player
-				unit .DAT <!-- TESTING - under test until fully developed --> 
-				stubber pistol <!-- DONE -->
-				custom model (will help keep the mood :P )
-			&mob:ninja
-				custom ninja model <!-- DONE -->
-				needs some more 2HSword anims to replace vanilla ones <!-- DONE -->
-				needs skills
-					backflip shuriken
-					sidestep
-					lunge attack
-				katana drop
-				stimvial drop
-			&mob:drone
-				fan blade particle <!-- DONE -->
-				drone body model and texture
-	</Feb>		
+	<combat_demo>
+		player character
+			custom mesh (avoid anim glitch)
+			dodge skills (forward, left, right)
+		UI HUD <!-- DONE -->
+		UI basic player menus
+			equipped (weapons, "trinkets"), inventory
+		mob_ninja_sword
+			dodging skill
+			shuriken skill
+		mob_ninja_gun
+			dodging skill
+		mob_drone
+			stun transfer
+		boss_minigun_brute
+			minigun skill
+			aoe skill/s
+		item_stimcharge <!-- DONE -->
+		ite_stamina_ampule <!-- DONE -->
+		item weapons
+			katana <!-- DONE -->
+			wakizashi <!-- DONE -->
+			stubber <!-- DONE -->
+			auto-pistol <!-- DONE -->
+			auto-rifle
+		item weapon icons	
+		spawnclasses
+			bar TL drops
+			mob drops
+		combat dungeon <!-- DONE -->
+	</combat_demo>		
 </2024>
-
