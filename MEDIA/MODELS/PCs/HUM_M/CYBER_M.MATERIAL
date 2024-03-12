@@ -1,0 +1,17 @@
+material cyber_m_mat
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.588 0.588 0.588
+			diffuse 0.588 0.588 0.588
+			specular 0 0 0 0
+			emissive 0 0 0
+			texture_unit
+			{
+				texture cyber_m.dds
+			}
+		}
+	}
+}
