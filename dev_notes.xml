@@ -7,8 +7,11 @@ Dev Notes
 			custom mesh (avoid anim glitch)
 			dodge skills (forward, left, right)
 		UI HUD <!-- DONE -->
+			<<fix>> place/remove sounds
 		UI basic player menus
-			equipped (weapons, "trinkets"), inventory
+			equipped (weapons, "trinkets"), inventory <!-- DONE -->
+			sounds <!-- DONE -->
+			<<fix>> paperdoll rotate buttons
 		mob_ninja_sword
 			dodging skill
 			shuriken skill
@@ -20,14 +23,26 @@ Dev Notes
 			minigun skill
 			aoe skill/s
 		item_stimcharge <!-- DONE -->
-		ite_stamina_ampule <!-- DONE -->
+			<<fix>> get/drop sounds
+		item_stamina_ampule <!-- DONE -->
+			<<fix>> get/drop sounds
 		item weapons
 			katana <!-- DONE -->
+				<<fix>> icon
+				<<fix>> get/drop sounds
 			wakizashi <!-- DONE -->
+				<<fix>> icon
+				<<fix>> get/drop sounds
 			stubber <!-- DONE -->
+				<<fix>> icon
+				<<fix>> get/drop sounds
 			auto-pistol <!-- DONE -->
+				<<fix>> icon
+				<<fix>> get/drop sounds
 			auto-rifle
-		item weapon icons	
+				<<fix>> nicer mesh
+				<<fix>> icon
+				<<fix>> get/drop sounds
 		spawnclasses
 			bar TL drops
 			mob drops
