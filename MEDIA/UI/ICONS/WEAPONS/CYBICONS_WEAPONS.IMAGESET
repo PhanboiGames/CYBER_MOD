@@ -2,7 +2,7 @@
 <Imageset Name= "CYBICONS_WEAPONS" Imagefile="media/ui/icons/weapons/CYBICONS_WEAPONS.dds" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
 	<Image Name="cybicon_weapon_STUBBER01" XPos="1" YPos="1" Width="62" Height="62" />
 	<Image Name="cybicon_weapon_AUTOPISTOL01" XPos="65" YPos="1" Width="62" Height="62" />
-	<Image Name="cybicon_weapon_03" XPos="129" YPos="1" Width="62" Height="62" />
+	<Image Name="cybicon_weapon_AUTORIFLE03" XPos="129" YPos="1" Width="62" Height="62" />
 	<Image Name="cybicon_weapon_04" XPos="193" YPos="1" Width="62" Height="62" />
 	<Image Name="cybicon_weapon_05" XPos="257" YPos="1" Width="62" Height="62" />
 	<Image Name="cybicon_weapon_06" XPos="321" YPos="1" Width="62" Height="62" />
