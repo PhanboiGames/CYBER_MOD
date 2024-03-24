@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name= "CYB_MERCHANTS_TEST" Imagefile="media/ui/icons/characters/merchanttestportrait.dds" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+	<Image Name="cyb_merchants_test" XPos="0" YPos="0" Width="326" Height="176" />
+</Imageset>
