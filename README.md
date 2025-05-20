@@ -3,7 +3,6 @@ A cyberpunk ARPG total conversion mod for Torchlight 2
 
 ## What is this project?
 This mod will totally convert Torchlight 2 into a cyberpunk ARPG!
-The project public site is on [notion.so](https://www.notion.so/Cyber-TC-Mod-CTM-cb50b5486f3149ce86db794ff3d2645b?pvs=4).
 
 ## Who is to blame for this project?
 I'm phanjam. I've been modding the Torchlight games since they started back in 2009.
